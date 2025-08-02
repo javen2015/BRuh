@@ -31,7 +31,8 @@ function draw() {
       fill(colourR,colourB,colourG);
     let x = startX + i* circleDiameter
     circle(x,height/2,circleDiameter,circleDiameter)
-    colourR += 100
+    colourR += 50
+    colourG += 50
   }
 }
 
