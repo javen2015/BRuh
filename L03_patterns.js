@@ -20,6 +20,6 @@ function draw() {
   //    colourValue+=1;
   // }
   fill(0,0,0);
-  rect(0,20,width,100);
+  rect(0,20,width/2,100);
 }
 
