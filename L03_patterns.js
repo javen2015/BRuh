@@ -29,8 +29,7 @@ function draw() {
       fill(colour);
     let x = startX + i* circleDiameter
     circle(x,height/2,circleDiameter,circleDiameter)
-    colour
-    
+    colour +20
   }
 }
 
