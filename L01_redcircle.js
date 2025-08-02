@@ -8,6 +8,6 @@ function draw(){
     // ellipse(300,200,350,200);
     // fill(0, 0, 255);
     // ellipse(300,200,100,200);
-    rectangle(0,50,innerWidth,)
+    rectangle(0,50,width,100)
     // Todo: Challenge 3 Traffic Light
 }
