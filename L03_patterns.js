@@ -23,6 +23,7 @@ function draw() {
   let numOfCircles = 5;
   let totalWidth = circleDiameter* numOfCircles;
   let startX = (width - totalWidth)/2 + circleDiameter/2;
+  let colour = 
   fill(0,0,0);
   for (let i = 0; i < numOfCircles; i++) {
     let x = startX + i* circleDiameter
