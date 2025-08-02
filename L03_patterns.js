@@ -20,6 +20,9 @@ function draw() {
   //    colourValue+=1;
   // }
   fill(0,0,0);
-  rect(width/2,height/2,width/2,height/2);
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
 }
 
