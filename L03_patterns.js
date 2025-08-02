@@ -29,7 +29,7 @@ function draw() {
   let colourB = 0;
 
   for (let row = 0; row < numOfCircles; row++) {
-    let rowY = startY + (circleDiameter*row)
+    let rowY = startY + (circleDiameter*row);
     
   }
 
