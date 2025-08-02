@@ -28,7 +28,7 @@ function draw() {
   let colourG = 0;
   let colourB = 0;
 
-  for (let row = 0; row < numOfCircles+2; row++) {
+  for (let row = 0; row < numOfCircles; row++) {
     let rowY = startY + (circleDiameter*row);
     for (let i = 0; i < numOfCircles; i++) {
       fill(colourR,colourB,colourG);
