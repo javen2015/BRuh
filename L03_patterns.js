@@ -26,7 +26,7 @@ function draw() {
   fill(0,0,0);
   for (let i = 0; i < 6; i++) {
     let x = startX + i* circleDiameter
-    circle(startX+i*circleDiameter,height/2,circleDiameter,circleDiameter)
+    circle(x+i*circleDiameter,height/2,circleDiameter,circleDiameter)
     
   }
 }
