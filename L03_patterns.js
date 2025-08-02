@@ -30,16 +30,16 @@ function draw() {
 
   for (let row = 0; row < numOfCircles; row++) {
     let rowY = startY + (circleDiameter*row);
-    
-  }
-
-  for (let i = 0; i < numOfCircles; i++) {
+    for (let i = 0; i < numOfCircles; i++) {
       fill(colourR,colourB,colourG);
-    let x = startX + i* circleDiameter
+      let x = startX + i* circleDiameter
     circle(x,height/2,circleDiameter,circleDiameter)
     colourR += 50
     colourG += 20
     colourB += 30
   }
+  }
+
+  
 }
 
