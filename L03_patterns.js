@@ -23,10 +23,15 @@ function draw() {
   let numOfCircles = 5;
   let totalWidth = circleDiameter* numOfCircles;
   let startX = (width - totalWidth)/2 + circleDiameter/2;
-  let startY = (height - totalWidth)/2 + circleDiameter
+  let startY = (height - totalWidth)/2 + circleDiameter/2;
   let colourR = 0;
   let colourG = 0;
   let colourB = 0;
+
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
 
   for (let i = 0; i < numOfCircles; i++) {
       fill(colourR,colourB,colourG);
