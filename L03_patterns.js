@@ -20,7 +20,7 @@ function draw() {
   //    colourValue+=1;
   // }
   fill(0,0,0);
-  for (let i = 0; i < array.length; index++) {
+  for (let i = 0; i < 6; i++) {
     const element = array[index];
     
   }
