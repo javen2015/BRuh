@@ -19,7 +19,8 @@ function draw() {
   //    square(i*100,200,100);
   //    colourValue+=1;
   // }
-  let 
+  let circleDiameter = 30;
+  
   fill(0,0,0);
   for (let i = 0; i < 6; i++) {
     circle()
