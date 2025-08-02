@@ -2,7 +2,7 @@ let colourValue = 0;
 
 
 function setup() {
-    createCanvas(3000, 1000);
+    createCanvas(1000, 1000);
     background(220);
     // noLoop(); // Stops continuous drawing
   }
@@ -20,6 +20,6 @@ function draw() {
   //    colourValue+=1;
   // }
   fill(0,0,0);
-  rect(0,20,width/2,100);
+  rect(0,20,width/2,height/2);
 }
 
