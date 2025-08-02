@@ -33,6 +33,7 @@ function draw() {
     circle(x,height/2,circleDiameter,circleDiameter)
     colourR += 50
     colourG += 50
+    colourB += 50
   }
 }
 
