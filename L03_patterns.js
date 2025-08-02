@@ -26,8 +26,10 @@ function draw() {
   let colour = 20
 
   for (let i = 0; i < numOfCircles; i++) {
+      fill(colour);
     let x = startX + i* circleDiameter
     circle(x,height/2,circleDiameter,circleDiameter)
+    colour
     
   }
 }
