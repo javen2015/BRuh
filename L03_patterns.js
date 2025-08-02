@@ -28,7 +28,7 @@ function draw() {
   let colourG = 0;
   let colourB = 0;
 
-  for (let index = 0; index < array.length; index++) {
+  for (let row = 0; row < array.length; index++) {
     const element = array[index];
     
   }
