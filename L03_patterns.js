@@ -9,15 +9,16 @@ function setup() {
   
 function draw() {
 
-  for (let i = 1; i < 10; i++) {
-    if(i%2 === 0){
-      fill(0); 
-    }else{
-      fill(255);
-    }
+  // for (let i = 1; i < 10; i++) {
+  //   if(i%2 === 0){
+  //     fill(0); 
+  //   }else{
+  //     fill(255);
+  //   }
  
-     square(i*100,200,100);
-     colourValue+=1;
-  }
+  //    square(i*100,200,100);
+  //    colourValue+=1;
+  // }
+  rectan
 }
 
