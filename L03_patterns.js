@@ -19,7 +19,7 @@ function draw() {
   //    square(i*100,200,100);
   //    colourValue+=1;
   // }
-  
+  fill(0,0,0)
   rectangle(0,20,width,100)
 }
 
