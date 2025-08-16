@@ -6,7 +6,7 @@ function setup() {
 
 let shapeColor = 'blue';
 function draw(){
-    circle(500,500,100)
+    ellipse(500,500,80)
     fill(shapeColor);
 }
 
