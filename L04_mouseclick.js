@@ -7,7 +7,7 @@ function setup() {
 let shapeColor ='blue';
 let triangleValue = 
 function draw(){
-    triangleValue()
+    triangle(triangleValue)
     fill(shapeColor);
 }
 
