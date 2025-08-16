@@ -8,7 +8,9 @@ let shapeColor ='blue';
 let x1 = 500;
 let y1 = 200;
 let x2 = 300;
-let y2 = 500
+let y2 = 500;
+let x3 = 200;
+let x2 = 300;
 let height = 500;
 function draw(){
     if (mouseIsPressed){
