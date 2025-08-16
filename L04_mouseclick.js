@@ -5,7 +5,8 @@ function setup() {
   }
 
 let shapeColor ='blue';
-let x1 = random(100)
+let x1 = random(700)
+let x2 = random(700)
 function draw(){
     triangle(triangleValue)
     fill(shapeColor);
