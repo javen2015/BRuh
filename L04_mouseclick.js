@@ -110,6 +110,8 @@ function draw(){
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
 
+function mouseDragged()
+
 function mousePressed(){
     shapeColor = color(random(255), random(255),random(255))
     circleSize= 1
