@@ -6,9 +6,9 @@ function setup() {
 
 let shapeColor ='blue';
 let x1 = 500;
-let x2 = 500;
-let x3 = 500;
-let width = 300
+let x2 = 200;
+let x3 = 300;
+let width = 500
 let height = 300;
 function draw(){
     triangle(x1,x2,x3,width,height)
