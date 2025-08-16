@@ -14,7 +14,6 @@ function mousePressed(){
     shapeColor = 'red'
 }
 
-function mousePressed(){
-    let colourR= 255
-    let colourB= 0
+function mouse(){
+    shapeColor = 'blue'
 }
