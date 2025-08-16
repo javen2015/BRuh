@@ -7,9 +7,9 @@ function setup() {
 let shapeColor ='blue';
 let x1 = 500;
 let x2 = 500;
-let x3 = random(1000);
-let width = random(1000);
-let height = random(1000);
+let x3 = 500;
+let width = 300
+let height = 300;
 function draw(){
     triangle(x1,x2,x3,width,height)
     fill(shapeColor);
