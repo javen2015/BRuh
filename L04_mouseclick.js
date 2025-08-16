@@ -14,7 +14,8 @@ let x1,y1,x2,y2,x3,y3 =
 // let x3 = 200;
 // let y3 = 300;
 function draw(){
-    background()
+    background(220);
+    fill(shapeColor);
     if (mouseIsPressed){
         triangle(x1,y1,x2,y2,x3,y3);
         fill(shapeColor);
