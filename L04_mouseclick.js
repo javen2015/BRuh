@@ -6,7 +6,7 @@
 
 let shapeColor ='blue';
 
-let x1,y1,x2,y2
+let x1,y1,x2,y2,x3,y3 =
 // let x1 = 500;
 // let y1 = 200;
 // let x2 = 300;
