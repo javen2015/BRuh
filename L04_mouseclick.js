@@ -11,7 +11,7 @@ let x3 = random(1000);
 let width = random(1000);
 let height = random(1000);
 function draw(){
-    triangle(x1,x2,x3)
+    triangle(x1,x2,x3,width,height)
     fill(shapeColor);
 }
 
