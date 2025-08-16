@@ -11,7 +11,7 @@ function draw(){
 }
 
 function mousePressed(){
-    random
+    random()
 }
 
 function mouseReleased(){
