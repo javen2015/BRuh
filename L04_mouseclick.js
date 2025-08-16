@@ -7,7 +7,7 @@ function setup() {
 let shapeColor ='blue';
 let triangleValue = 
 function draw(){
-    ellipse(500,500,80,80)
+    triangleValue
     fill(shapeColor);
 }
 
