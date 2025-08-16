@@ -97,13 +97,13 @@
 //     circleSize +=2
 // }
 
-let circleSize = 20;
-let shapeColor= 'blue';
+// let circleSize = 20;
+// let shapeColor= 'blue';
 
-function setup(){
-    createCanvas(400,400);
-    background(200);
-}
+// function setup(){
+//     createCanvas(400,400);
+//     background(200);
+// }
 
 // function draw(){
 //     background(200);
@@ -111,12 +111,12 @@ function setup(){
 //     ellipse(mouseX,mouseY,circleSize,circleSize);
 // }
 
-function mouseDragged(){
-    shapeColor = color(random(255), random(255),random(255))
-    circleSize= random(200)
-    fill(shapeColor);
-    ellipse(mouseX,mouseY,circleSize,circleSize);
-}
+// function mouseDragged(){
+//     shapeColor = color(random(255), random(255),random(255))
+//     circleSize= random(200)
+//     fill(shapeColor);
+//     ellipse(mouseX,mouseY,circleSize,circleSize);
+// }
 
 
 
