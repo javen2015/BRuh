@@ -23,9 +23,9 @@ function draw(){
 
 function mousePressed(){
     shapeColor= color(random(255),random(255),random(255))
-    let x1 = random(width);
-    let y1 = random(height);
-    let x2 = random(width);
+    x1 = random(width);
+    y1 = random(height);
+    x2 = random(width);
     y2 = random(width);
     x3 = random(height);
     y3 = random(width);
