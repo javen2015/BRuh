@@ -31,5 +31,10 @@ function mousePressed(){
 
 function mouseReleased(){
     shapeColor =color(random(255),random(255),random(255))
-    
+    let x1 = random(width);
+    let y1 = random(height);
+    let x2 = random(width);
+    let y2 = random(width);
+    let x3 = random(height);
+    let y3 = random(width);
 }
