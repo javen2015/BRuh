@@ -4,7 +4,7 @@ function setup() {
     // noLoop(); // Stops continuous drawing
   }
 function draw(){
-    
+    circle
 }
 let colourR= 255
 let colourG= 255
