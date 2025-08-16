@@ -104,13 +104,17 @@ function setup(){
     background(200);
 }
 
-function draw(){
-    background(200);
+// function draw(){
+//     background(200);
+//     fill(shapeColor);
+//     ellipse(mouseX,mouseY,circleSize,circleSize);
+// }
+
+function mouseDragged(){
     fill(shapeColor);
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
 
-function mouseDragged()
 
 function mousePressed(){
     shapeColor = color(random(255), random(255),random(255))
