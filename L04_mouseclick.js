@@ -13,7 +13,6 @@ let x1,y1,x2,y2,x3,y3 =
 // let y2 = 500;
 // let x3 = 200;
 // let y3 = 300;
-let height = 500;
 function draw(){
     if (mouseIsPressed){
         triangle(x1,y1,x2,y2,x3,y3);
