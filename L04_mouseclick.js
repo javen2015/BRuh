@@ -4,7 +4,7 @@ function setup() {
     // noLoop(); // Stops continuous drawing
   }
 
-
+let shapeColor = 'blue';
 function draw(){
     circle(500,500,100)
     fill(shapeColor);
