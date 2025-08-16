@@ -9,7 +9,7 @@ let x1 = 500;
 let x2 = 200;
 let x3 = 300;
 let width = 500
-let height = 300;
+let height = 500;
 function draw(){
     triangle(x1,x2,x3,width,height)
     fill(shapeColor);
