@@ -44,6 +44,8 @@ function setup() {
 
 let shapeColor ="blue";
 let circleSize = 20
+
+
 function setup(){
     createCanvas(400,400)
     background(200);
@@ -60,4 +62,8 @@ function mousePressed(){
 
 function mouseReleased(){
     shapeColor = color(random(255), random(255),random(255))
+}
+
+function mouseMoved(){
+    
 }
