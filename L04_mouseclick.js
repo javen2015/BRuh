@@ -19,7 +19,7 @@ function draw(){
 
 function mousePressed(){
     shapeColor= color(random(255),random(255),random(255))
-    let x1 = random(1000);
+    let x1 = random(width);
     let x2 = random(1000);
     let x3 = random(1000);
     let width = random(1000);
