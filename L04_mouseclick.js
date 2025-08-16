@@ -1,8 +1,8 @@
-function setup() {
-    createCanvas(1000, 1000);
-    background(220);
-    // noLoop(); // Stops continuous drawing
-  }
+// function setup() {
+//     createCanvas(1000, 1000);
+//     background(220);
+//     // noLoop(); // Stops continuous drawing
+//   }
 
 // let shapeColor ='blue';
 // let x1 = 500;
@@ -99,26 +99,26 @@ function setup() {
 
 
 
-// function setup(){
-//     createCanvas(400,400);
-//     background(200);
-// }
+function setup(){
+    createCanvas(400,400);
+    background(200);
+}
 
-// function draw(){
-//     background(200);
-//     fill(shapeColor);
-//     ellipse(mouseX,mouseY,circleSize,circleSize);
-// }
+function draw(){
+    background(200);
+    fill(shapeColor);
+    ellipse(mouseX,mouseY,circleSize,circleSize);
+}
 
-// function mousePressed(){
-//     shapeColor = color(random(255), random(255),random(255))
-//     circleSize= 1
-// }
+function mousePressed(){
+    shapeColor = color(random(255), random(255),random(255))
+    circleSize= 1
+}
 
-// function mouseReleased(){
-//     shapeColor = color(random(255), random(255),random(255))
-// }
+function mouseReleased(){
+    shapeColor = color(random(255), random(255),random(255))
+}
 
-// function mouseMoved(){
-//     circleSize +=2
-// }
+function mouseMoved(){
+    circleSize +=2
+}
