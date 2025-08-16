@@ -11,7 +11,7 @@ let x3 = 300;
 let width = 500
 let height = 500;
 function draw(){
-    if (mousePressed){
+    if (mouseIsPressed){
         triangle(x1,x2,x3,width,height)
         fill(shapeColor);
     }
