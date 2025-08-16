@@ -11,8 +11,7 @@ function draw(){
 }
 
 function mousePressed(){
-    let colourR= 0
-    let colourB= 255
+    shapeColor = 'red'
 }
 
 function mousePressed(){
