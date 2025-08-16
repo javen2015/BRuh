@@ -9,7 +9,7 @@ function draw(){
 }
 let colourR= 255
 let colourG= 0
-let colourB= 255
+let colourB= 0
 function mousePressed(){
 
 }
