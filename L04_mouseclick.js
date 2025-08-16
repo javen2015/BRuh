@@ -20,10 +20,10 @@ function draw(){
 function mousePressed(){
     shapeColor= color(random(255),random(255),random(255))
     let x1 = random(width);
-    let x2 = random(height);
-    let x3 = random(width);
-    let width = random(1000);
-    let height = random(1000);
+    let y1 = random(height);
+    let x2 = random(width);
+    let y2 = random(1000);
+    let x3 = random(1000);
 }
 
 function mouseReleased(){
