@@ -11,5 +11,7 @@ let colourR= 255
 let colourG= 0
 let colourB= 0
 function mousePressed(){
-
+    let colourR= 0
+    let colourG= 0
+    let colourB= 0
 }
