@@ -5,12 +5,14 @@
 //   }
 
 let shapeColor ='blue';
-let x1 = 500;
-let y1 = 200;
-let x2 = 300;
-let y2 = 500;
-let x3 = 200;
-let y3 = 300;
+
+let x1,y1,x2,y2
+// let x1 = 500;
+// let y1 = 200;
+// let x2 = 300;
+// let y2 = 500;
+// let x3 = 200;
+// let y3 = 300;
 let height = 500;
 function draw(){
     if (mouseIsPressed){
