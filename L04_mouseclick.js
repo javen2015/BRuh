@@ -113,7 +113,7 @@ function setup(){
 
 function mouseDragged(){
     shapeColor = color(random(255), random(255),random(255))
-    circleSize= random()
+    circleSize= random(200)
     fill(shapeColor);
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
