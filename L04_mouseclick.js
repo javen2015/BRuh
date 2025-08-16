@@ -11,8 +11,10 @@ let x3 = 300;
 let width = 500
 let height = 500;
 function draw(){
-    triangle(x1,x2,x3,width,height)
-    fill(shapeColor);
+    if (mousePressed){
+        triangle(x1,x2,x3,width,height)
+        fill(shapeColor);
+    }
 }
 
 function mousePressed(){
