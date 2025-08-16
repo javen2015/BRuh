@@ -5,7 +5,7 @@ function setup() {
   }
 function draw(){
     circle(500,500,100)
-    fill(colourR,colourB,colourG)
+    fill(colourR,colourB,colourG);
 }
 let colourR= 255
 let colourG= 0
