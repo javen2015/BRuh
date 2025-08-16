@@ -5,6 +5,7 @@ function setup() {
   }
 function draw(){
     circle(500,500,100)
+    FileList()
 }
 let colourR= 255
 let colourG= 255
