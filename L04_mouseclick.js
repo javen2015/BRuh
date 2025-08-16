@@ -4,7 +4,7 @@ function setup() {
     // noLoop(); // Stops continuous drawing
   }
 
-let shapeColor = random(0,256);
+let shapeColor = color(random(255),random(255),random(255));
 function draw(){
     ellipse(500,500,80,80)
     fill(shapeColor);
