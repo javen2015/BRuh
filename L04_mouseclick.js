@@ -119,7 +119,7 @@ function mouseDragged(){
 
 function mousePressed(){
     shapeColor = color(random(255), random(255),random(255))
-    circleSize= 1
+    circleSize= 20
 }
 
 function mouseReleased(){
