@@ -41,30 +41,30 @@ function setup() {
 
 
 
+// Cool circle code
+// let shapeColor ="blue";
+// let circleSize = 20
 
-let shapeColor ="blue";
-let circleSize = 20
 
+// function setup(){
+//     createCanvas(400,400)
+//     background(200);
+// }
 
-function setup(){
-    createCanvas(400,400)
-    background(200);
-}
+// function draw(){
+//     fill(shapeColor);
+//     ellipse(mouseX,mouseY,circleSize,circleSize) 
+// }
 
-function draw(){
-    fill(shapeColor);
-    ellipse(mouseX,mouseY,circleSize,circleSize) 
-}
+// function mousePressed(){
+//     shapeColor = color(random(255), random(255),random(255))
+//     circleSize= 1
+// }
 
-function mousePressed(){
-    shapeColor = color(random(255), random(255),random(255))
-    circleSize= 1
-}
+// function mouseReleased(){
+//     shapeColor = color(random(255), random(255),random(255))
+// }
 
-function mouseReleased(){
-    shapeColor = color(random(255), random(255),random(255))
-}
-
-function mouseMoved(){
-    circleSize +=2
-}
+// function mouseMoved(){
+//     circleSize +=2
+// }
