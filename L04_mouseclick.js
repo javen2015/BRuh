@@ -5,11 +5,9 @@ function setup() {
   }
 function draw(){
     circle(500,500,100)
-    fill(colourR,colourB,colourG);
+    fill(shapeColor);
 }
-let colourR= 255
-let colourG= 0
-let colourB= 0
+
 function mousePressed(){
     let colourR= 0
     let colourB= 255
