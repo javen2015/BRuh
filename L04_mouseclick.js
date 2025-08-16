@@ -74,8 +74,9 @@ let circleSize = 20
 
 
 function setup(){
-    createCanvas(400,400)
+    createCanvas(400,400);
     background(200);
+    noLoop();
 }
 
 function draw(){
