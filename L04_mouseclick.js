@@ -134,6 +134,7 @@ function mousePressed(){
 }
 
 function mouseDragged(){
+    fill(shapeColor);
     circle(mouseX,mouseY,20)
 }
 
