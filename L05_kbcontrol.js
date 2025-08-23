@@ -6,7 +6,7 @@ function setup() {
 
 
 function draw(){
-    rectangleSize(width/2 - rectangleSize/2 , height/2 - rectangleSize/2, rectangleSize, rectangleSize)
+    rect(width/2 - rectangleSize/2 , height/2 - rectangleSize/2, rectangleSize, rectangleSize);
 }
 
 function keyPressed(){
