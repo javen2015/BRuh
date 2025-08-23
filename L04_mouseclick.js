@@ -154,7 +154,7 @@ function draw(){
 
 }
 
-function mousePressed(){
+function mouseScroll(){
 
     shapeColor = color(random(255), random(255),random(255))
     size = 5;
