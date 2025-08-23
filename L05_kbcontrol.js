@@ -9,14 +9,14 @@ function draw(){
 
 }
 
-function mousePressed(){
+function keyPressed(){
 
     shapeColor = color(random(255), random(255),random(255))
     size = 5;
 
 }
 
-function mouseDragged(){
+function keyReleased(){
     fill(shapeColor);
     circle(mouseX,mouseY,size)
     size += 0.3;
