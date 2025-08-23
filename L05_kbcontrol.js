@@ -10,9 +10,10 @@ function draw(){
 }
 
 function keyPressed(){
-    rectangleSize = 5
+    rectangleSize = 100;
 }
 
 function keyReleased(){
+    rectangleSize = 50;
 }
 
