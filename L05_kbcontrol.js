@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(1000, 500);
+    createCanvas(400, 500);
     background(220);
     noStroke(); // no outline
   }
@@ -18,6 +18,6 @@ function mousePressed(){
 
 function mouseDragged(){
     fill(shapeColor);
-    circle(600,mouseY,size)
+    circle(600,0,size)
     size += 0.3;
 }
