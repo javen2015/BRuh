@@ -6,8 +6,8 @@ function setup() {
 
 
 function draw(){
-for (let i = 0; i < array.length; i++) {
-    circle
+for (let i = 0; i < 5; i++) {
+    circle()
     
 }
 }
