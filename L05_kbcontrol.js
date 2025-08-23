@@ -23,4 +23,4 @@ function mouseDragged(){
 }
 // a = 600,0
 //b = 600,400
-//
+//b = 0,400
