@@ -7,7 +7,7 @@ function setup() {
 
 function draw(){
 for (let i = 0; i < 5; i++) {
-    circle(width/())
+    circle(width/(6-i))
     
 }
 }
