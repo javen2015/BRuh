@@ -6,7 +6,7 @@ function setup() {
 
 
 function draw(){
-    
+    rectangleSize()
 }
 
 function keyPressed(){
