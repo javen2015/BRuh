@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(2000, 500);
+    createCanvas(1000, 500);
     background(220);
     // noLoop(); // Stops continuous drawing
   }
