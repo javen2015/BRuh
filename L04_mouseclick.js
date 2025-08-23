@@ -144,14 +144,7 @@ function draw(){
     }
 }
 
-function mouse(){
-    shapeColor= color(random(255),random(255),random(255))
-    x1 = random(width);
-    y1 = random(height);
-    x2 = random(width);
-    y2 = random(width);
-    x3 = random(height);
-    y3 = random(width);
+function mouseDragged(){
 }
 
 
