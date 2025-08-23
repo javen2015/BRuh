@@ -3,14 +3,15 @@ function setup() {
     background(220);
     noStroke(); // no outline
   }
+  
 function draw(){
-    
+
 }
 
 function mousePressed(){
 
     shapeColor = color(random(255), random(255),random(255))
-    fill(shapeColor);
+    size = 5;
 
 }
 
