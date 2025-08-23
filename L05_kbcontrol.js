@@ -3,7 +3,9 @@ function setup() {
     background(220);
     noStroke(); // no outline
   }
-
+function draw(){
+    
+}
 
 function mousePressed(){
 
