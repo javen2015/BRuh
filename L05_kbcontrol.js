@@ -4,9 +4,9 @@ function setup() {
     noStroke(); // no outline
   }
 
-let size = 5;
-function draw(){
 
+function draw(){
+circle
 }
 
 
