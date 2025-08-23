@@ -143,27 +143,27 @@
 // }
 
 //------BRUH---------
-// function setup() {
-//     createCanvas(400, 600);
-//     background(220);
-//     noStroke(); // no outline
-//   }
+function setup() {
+    createCanvas(400, 600);
+    background(220);
+    noStroke(); // no outline
+  }
 
-// let size = 5;
-// function draw(){
+let size = 5;
+function draw(){
 
-// }
+}
 
-// function mousePressed(){
+function mousePressed(){
 
-//     shapeColor = color(random(255), random(255),random(255))
-//     size = 5;
+    shapeColor = color(random(255), random(255),random(255))
+    size = 5;
 
-// }
+}
 
-// function mouseDragged(){
-//     fill(shapeColor);
-//     circle(mouseX,mouseY,size)
-//     size += 0.3;
-// }
+function mouseDragged(){
+    fill(shapeColor);
+    circle(mouseX,mouseY,size)
+    size += 0.3;
+}
 
