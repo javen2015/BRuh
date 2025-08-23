@@ -129,6 +129,7 @@ function setup() {
 
 
 function mousePressed(){
+    fill(shapeColor);
     circle(mouseX,mouseY,20)
 }
 
