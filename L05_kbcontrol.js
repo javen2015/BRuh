@@ -1,7 +1,6 @@
 function setup() {
     createCanvas(1000, 500);
     background(220);
-    // noLoop(); // Stops continuous drawing
     noStroke()
   }
 
