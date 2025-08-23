@@ -132,7 +132,7 @@ function mousePressed(){
     circle(mouseX,mouseY,20)
 }
 
-function mousePressed(){
+function mouseDragged(){
     circle(mouseX,mouseY,20)
 }
 
