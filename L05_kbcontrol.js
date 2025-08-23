@@ -21,3 +21,7 @@ function mouseDragged(){
     circle(mouseX,mouseY,size)
     size += 0.3;
 }
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
