@@ -6,7 +6,10 @@ function setup() {
 
 
 function draw(){
-circle(width/2,height/2,20)
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    
+}
 }
 
 
