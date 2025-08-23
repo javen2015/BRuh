@@ -128,7 +128,7 @@ function setup() {
   }
 
 
-function mouseDragged(){
+function mouseClicked(){
     circle(mouseX,mouseY,20)
 }
 
