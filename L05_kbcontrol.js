@@ -21,6 +21,6 @@ function mouseDragged(){
     circle(mouseX,mouseY,size)
     size += 0.3;
 }
-// a = 600,0
-//c = 600,400
-//b = 0,400
+// a = 400,0
+//c = 400,600
+//b = 0,600
