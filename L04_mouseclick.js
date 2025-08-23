@@ -127,22 +127,6 @@ function setup() {
     // noLoop(); // Stops continuous drawing
   }
 
-let shapeColor ='blue';
-
-let x1,y1,x2,y2,x3,y3;
-// let x1 = 500;
-// let y1 = 200;
-// let x2 = 300;
-// let y2 = 500;
-// let x3 = 200;
-// let y3 = 300;
-function draw(){
-    background(220);
-    if (mouseIsPressed){
-        triangle(x1,y1,x2,y2,x3,y3);
-        fill(shapeColor);
-    }
-}
 
 function mouseDragged(){
     circle(mouseX,mouseY,20)
