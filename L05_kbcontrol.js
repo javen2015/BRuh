@@ -1,7 +1,7 @@
 function setup() {
     createCanvas(1000, 500);
     background(220);
-    noStroke()
+    noStroke(); // no outline
   }
 
 
