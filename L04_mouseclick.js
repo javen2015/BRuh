@@ -137,7 +137,7 @@ function mousePressed(){
 
 function mouseDragged(){
 
-//     shapeColor = color(random(255), random(255),random(255))
+    shapeColor = color(random(255), random(255),random(255))
     fill(shapeColor);
     circle(mouseX,mouseY,20)
 }
