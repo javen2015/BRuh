@@ -142,7 +142,7 @@ function mouseDragged(){
     circle(mouseX,mouseY,20)
 }
 
-
+//------BRUH---------
 // function setup() {
 //     createCanvas(400, 600);
 //     background(220);
