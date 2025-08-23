@@ -1,16 +1,16 @@
-function setup() {
-    createCanvas(1000, 500);
-    background(220);
-    noStroke(); // no outline
-  }
+// function setup() {
+//     createCanvas(1000, 500);
+//     background(220);
+//     noStroke(); // no outline
+//   }
 
 
-function draw(){
-    for (let i = 0; i < 5; i++) {
-        fill(0,i*50,0)
-        circle(50 + i*50,50+i*50,50);
-    }
-}
+// function draw(){
+//     for (let i = 0; i < 5; i++) {
+//         fill(0,i*50,0)
+//         circle(50 + i*50,50+i*50,50);
+//     }
+// }
 
 
 // a = 400,0
