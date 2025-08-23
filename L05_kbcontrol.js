@@ -21,12 +21,3 @@ function mouseDragged(){
     circle(mouseX,mouseY,size)
     size += 0.3;
 }
-<marquee class="marq" bgcolor="Green" 
-                 direction="left" loop="">
-            <div class="geek1">
-                GeeksforGeeks
-            </div>
-            <div class="geek2">
-                A computer science portal for geeks
-            </div>
-        </marquee>
