@@ -120,7 +120,7 @@
 //     ellipse(mouseX,mouseY,circleSize,circleSize);
 // }
 
-// Supe
+// Super cool circle drawing
 // function setup() {
 //     createCanvas(1000, 500);
 //     background(220);
