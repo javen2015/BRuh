@@ -145,7 +145,7 @@ function draw(){
 }
 
 function mouseDragged(){
-    circle()
+    circle(mouseX,mouse)
 }
 
 
