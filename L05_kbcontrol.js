@@ -19,5 +19,5 @@ function mousePressed(){
 function mouseDragged(){
     fill(shapeColor);
     circle(mouseX,mouseY,size)
-    size += 0.5
+    size += 0.3;
 }
