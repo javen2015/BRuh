@@ -10,8 +10,8 @@ function draw(){
   }
 }
 function write(){
-  for (let a = 0;i < 5 ;i++) {
-    console.log(i)
+  for (let a = 0;a < 5 ;a++) {
+    console.log(a)
     
   }
 }
