@@ -19,5 +19,5 @@ function draw() {
 }
 
 function setup(){
-  
+  createCanvas(500,200)
 }
