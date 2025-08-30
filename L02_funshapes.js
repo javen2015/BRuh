@@ -4,7 +4,7 @@ function setup(){
 }
 function draw(){
   for (let i = 0;i < 5 ;i++) {
-    rect((width/5))
+    rect((width/5)*i)
     
   }
 }
