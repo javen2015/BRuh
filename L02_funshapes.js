@@ -1,6 +1,7 @@
 
 function setup(){
   createCanvas(500,200);
+  background(220)
 }
 function draw(){
   for (let i = 0;i < 5 ;i++) {
