@@ -21,3 +21,9 @@ function draw() {
 function setup(){
   createCanvas(500,200);
 }
+function draw(){
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
+}
