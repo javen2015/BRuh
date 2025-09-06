@@ -45,7 +45,7 @@ function draw(){
     if (key === 'S') {
         rect(width/2,height/2,100,100)
     }
-    if (key === 'T') {
+    if (key === UPPER_ARROW) {
         triangle(300,150,250,250,350,250)
     }
 }
