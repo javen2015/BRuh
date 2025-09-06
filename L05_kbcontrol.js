@@ -65,6 +65,8 @@ function draw(){
     circle(width/2, height/2, 100);
     if (key==='r') {
         colourR = 255;
+        colourG = 0;
+        colourB = 0;
     }
     else if (key === 'w') {
         colourR = 255;
@@ -75,5 +77,6 @@ function draw(){
     }else{
         colourR = 255;
         colourG = 255;
+        colourB = 0;
     }
 }
