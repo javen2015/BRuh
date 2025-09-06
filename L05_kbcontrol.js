@@ -61,7 +61,7 @@ function draw(){
     background(220);
     fill(colourR,0,0);
     circle(width/2, height/2, 100);
-    if (keyCode === UP_ARROW) {
+    if (key==='r') {
         colourR = 255;
     }
     else if (keyCode === DOWN_ARROW) {
