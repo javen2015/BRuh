@@ -74,5 +74,6 @@ function draw(){
         colourG = 255;
     }else{
         colourR = 255;
+        colourG = 255;
     }
 }
