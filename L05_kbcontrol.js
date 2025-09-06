@@ -49,3 +49,11 @@
 //         triangle(300,150,250,250,350,250);
 //     }
 // }
+function setup() {
+    createCanvas(600, 400);
+        background(220);
+}
+function keyPressed(){
+    console.log("key:",key);
+    console.log("keyCode:",keyCode);
+    
