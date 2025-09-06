@@ -18,5 +18,5 @@ function keyReleased(){
     rectangleSize = 50;
 }
 
-console.log("")
+console.log("Hello World")
 
