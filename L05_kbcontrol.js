@@ -38,14 +38,6 @@ function setup() {
     createCanvas(600, 400);
     background(220);
 }
-function keyPressed(){
-    if (key === 'C') {
-        showCircle = !showCircle;
-    }
-    if (key === 'S') {
-        showCircle = !showCircle;
-    }
-    if (key === 'T') {
-        showCircle = !showCircle;
-    }
+function draw(){
+    
 }
