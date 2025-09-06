@@ -1,4 +1,5 @@
 let rectangleSize = 50;
+let showCircle = false;
 function setup() {
     createCanvas(1000, 500);
     noStroke();
