@@ -102,7 +102,7 @@ function draw(){
         colourG = 255;
         colourB = 255;
     }else if (mouseX>=100 
-    
+        && mouseX < 200
     ) {
         colourR = 0;
         colourG = 255;
