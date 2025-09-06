@@ -63,6 +63,8 @@ function draw(){
     background(220);
     circle(width/2, height/2, 100);
     if (keyCode === UP_ARROW) {
-        colourR = 
+        colourR = 255;
+        colourG = 0;
+        colourB = 0;
     }
 }
