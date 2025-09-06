@@ -72,5 +72,7 @@ function draw(){
         colourB = 255;
     }else if (key==='g') {
         colourG = 255;
+    }else{
+        colourR = 255;
     }
 }
