@@ -54,8 +54,6 @@
 //     console.log("keyCode:",keyCode);
 // }
 let colourR = 0;
-let colourG = 0;
-let colourB = 0;
 function setup() {
     createCanvas(600, 400);
 }
