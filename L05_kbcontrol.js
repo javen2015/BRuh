@@ -66,7 +66,7 @@ function draw(){
     if (key==='r') {
         colourR = 255;
     }
-    else if (keyCode === DOWN_ARROW) {
+    else if (key === 'w') {
         colourR = 0;
 
     }else if (key==='g') {
