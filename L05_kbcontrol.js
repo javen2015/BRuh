@@ -39,7 +39,7 @@ function setup() {
 }
 function draw(){
     background(220);
-    if (key === 'C') {
+    if (keyCode === 66) {
         circle(width/2, height/2, 100);
     }
     if (key === 'S') {
