@@ -40,10 +40,10 @@ function setup() {
 }
 function draw(){
     if (key === 'C') {
-        circle
+        circle(width/2, height/2, 100);
     }
     if (key === 'S') {
-        showCircle = !showCircle;
+        squa
     }
     if (key === 'T') {
         showCircle = !showCircle;
