@@ -61,7 +61,7 @@ function setup() {
 }
 function draw(){
     background(220);
-    fill(colourR,colourG,colourB);
+    fill(colourR,0,0);
     circle(width/2, height/2, 100);
     if (keyCode === UP_ARROW) {
         colourR = 255;
