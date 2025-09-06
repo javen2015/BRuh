@@ -40,10 +40,10 @@ function setup() {
 function draw(){
     background(220);
     if (key === 'C') {
-        circle(width/2, height/2, 100);
+        circle(width/2, height/2, 100,100);
     }
     if (key === 'S') {
-        square(width/2,height/2,100)
+        rect(width/2,height/2,100)
     }
     if (key === 'T') {
         triangle(300,150,250,250,350,250)
