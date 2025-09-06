@@ -63,6 +63,6 @@ function draw(){
     background(220);
     circle(width/2, height/2, 100);
     if (keyCode === UP_ARROW) {
-        coloru
+        colourR = 
     }
 }
