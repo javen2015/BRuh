@@ -70,6 +70,6 @@ function draw(){
         colourR = 0;
 
     }else if (key==='g') {
-        colourG = 100;
+        colourG = 225;
     }
 }
