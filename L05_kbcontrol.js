@@ -68,4 +68,8 @@ function draw(){
         colourG = 0;
         colourB = 0;
     }
+    if (keyCode === UP_ARROW) {
+        colourR = 0;
+
+    }
 }
