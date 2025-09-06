@@ -54,6 +54,8 @@
 //     console.log("keyCode:",keyCode);
 // }
 let colourR = 0;
+let colourG = 0;
+let colourB = 0;
 function setup() {
     createCanvas(600, 400);
 }
@@ -67,7 +69,7 @@ function draw(){
     else if (keyCode === DOWN_ARROW) {
         colourR = 0;
 
-    }else{
-        colourR = 100;
+    }else if (key==='g') {
+        colourG = 100;
     }
 }
