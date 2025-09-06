@@ -39,13 +39,13 @@ function setup() {
     background(220);
 }
 function keyPressed(){
-    if (key === 'c') {
+    if (key === 'C') {
         showCircle = !showCircle;
     }
-    if (key === 'c') {
+    if (key === 'S') {
         showCircle = !showCircle;
     }
-    if (key === 'c') {
+    if (key === 'T') {
         showCircle = !showCircle;
     }
 }
