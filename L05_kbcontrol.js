@@ -43,7 +43,7 @@ function draw(){
         circle(width/2, height/2, 100);
     }
     if (key === 'S') {
-        squa
+        square(width/2,height/2)
     }
     if (key === 'T') {
         showCircle = !showCircle;
