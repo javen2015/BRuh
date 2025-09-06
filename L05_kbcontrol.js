@@ -46,6 +46,6 @@ function draw(){
         square(width/2,height/2,100)
     }
     if (key === 'T') {
-        showCircle = !showCircle;
+        triangle(300,150,250,250,350,250)
     }
 }
