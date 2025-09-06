@@ -42,7 +42,7 @@ function draw(){
     if (keyCode === 67) {
         circle(width/2, height/2, 100);
     }
-    if (key === 'S') {
+    if (key === 's') {
         rect(width/2,height/2,100,100);
     }
     if (keyCode === UP_ARROW) {
