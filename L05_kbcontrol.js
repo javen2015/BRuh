@@ -67,9 +67,9 @@ function draw(){
         colourR = 255;
     }
     else if (key === 'w') {
-        colourR = 0;
+        colourR = 255;
 
     }else if (key==='g') {
-        colourG = 225;
+        colourG = 255;
     }
 }
