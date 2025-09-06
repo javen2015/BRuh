@@ -1,11 +1,21 @@
 let rectangleSize = 50;
 let showCircle = false;
+
 function setup() {
-    createCanvas(1000, 500);
+    createCanvas(600, 400);
+        background(220);
+}
+function draw(){
+    if(showCircle){
+        circle(width/2, height/2, 100);
     noStroke();
   }
-
-
+}
+function keyPressed(){
+    if (key === 'c') {
+        showCircle = !showCircle;
+    }
+}
 // function draw(){
 //     background(220);
 //     rect(width/2 - rectangleSize/2 , height/2 - rectangleSize/2, rectangleSize, rectangleSize);
