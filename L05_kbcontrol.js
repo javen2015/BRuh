@@ -101,7 +101,9 @@ function draw(){
         colourR = 255;
         colourG = 255;
         colourB = 255;
-    }else if (mouseX<=100) {
+    }else if (mouseX>=100 
+    
+    ) {
         colourR = 0;
         colourG = 255;
         colourB = 0;
