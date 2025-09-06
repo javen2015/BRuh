@@ -39,5 +39,13 @@ function setup() {
     background(220);
 }
 function draw(){
-    
+    if (key === 'C') {
+        circle
+    }
+    if (key === 'S') {
+        showCircle = !showCircle;
+    }
+    if (key === 'T') {
+        showCircle = !showCircle;
+    }
 }
