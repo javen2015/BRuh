@@ -10,7 +10,7 @@ function draw(){
         x+=speed;
     }
     if(keyIsDown(LEFT_ARROW)){
-        x-=speed;
+        x-=10;
     }
     if(keyIsDown(UP_ARROW)){
         y-=10;
