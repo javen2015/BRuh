@@ -123,5 +123,5 @@ function draw(){
         x+=1
         
     }
-    circle(width/2, height/2, 100);
+    circle(x, y, 100);
 }
