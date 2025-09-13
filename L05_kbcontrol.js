@@ -140,9 +140,7 @@
 //     y = constrain(y,0,height)
 //     circle(x, y, 50);
 // }
-let x =0;
 let y = 0;
-let speed = 1;
 function setup() {
     createCanvas(400, 400);
 }
