@@ -133,7 +133,7 @@ function draw(){
         y+1
     }
     if(keyIsDown(DOWN_ARROW)){
-        x+=-1
+        y-=1
     }
     circle(x, y, 100);
 }
