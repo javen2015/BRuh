@@ -7,7 +7,7 @@ function setup() {
 function draw(){
     background(220);
     if(keyIsDown(RIGHT_ARROW)){
-        x+=speed;
+        x+=10;
     }
     if(keyIsDown(LEFT_ARROW)){
         x-=10;
