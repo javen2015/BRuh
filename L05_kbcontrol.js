@@ -124,7 +124,7 @@ function draw(){
         x-=1
     }
     if(keyIsDown(LEFT_ARROW)){
-        x+=-1
+        x-=1
     }
     if(keyIsDown(UP_ARROW)){
         y-=1
