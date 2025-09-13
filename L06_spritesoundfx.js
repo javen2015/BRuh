@@ -33,7 +33,11 @@
 // }
 let soundEffect, bgMusic,staticImage;
 function preload(){
-    soundEffect = loadSound('assets/soundeffect.wav');
-    bgMusic = loadSound('assets/bgmusic.mp3');
-    staticImage = loadImage('assets/staticimage.png');
+
+    staticImage = loadImage('assets/pico-a.png');
+}
+function setup() {
+    createCanvas(200,200);
+    background('lightblue');
+    image(staticImage,0,0,100,100);
 }
