@@ -20,8 +20,10 @@ function draw(){
     }
     if(keyIsDown(SPACE)){
         if(colour%2==0){
+            colour+=1
             fill(50);
         }else{
+            colour+=1
             fill(200);
         }
     }
