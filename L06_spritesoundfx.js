@@ -19,7 +19,9 @@ function draw(){
         y+=speed
     }
     if(keyIsDown(SPACE)){
-        speed+=1
+        if(colour%2==0){
+            
+        }
     }
     x = constrain(x,50,width-50)
     y = constrain(y,50,height-50)
