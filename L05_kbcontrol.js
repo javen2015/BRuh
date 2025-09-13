@@ -132,6 +132,6 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=1
     }
-    
+    x = constrain(x,)
     circle(x, y, 50);
 }
