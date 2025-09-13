@@ -113,3 +113,7 @@
 //         colourB = 255;
 //     }
 // }
+let x =200;
+function setup() {
+    createCanvas(600, 400);
+}
