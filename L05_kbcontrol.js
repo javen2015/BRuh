@@ -149,11 +149,11 @@ function draw(){
     background(220);
     if(keyIsDown(UP_ARROW)){
         y-=1
-        direction = -50
+        direction = 50
     }
     if(keyIsDown(DOWN_ARROW)){
         y+=1
-        direction = 50
+        direction = -50
     }
     y = constrain(y,0,height)
     triangle(200, y, 175, y+direction, 225, y+direction);
