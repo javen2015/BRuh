@@ -153,5 +153,5 @@ function draw(){
         y+=1
     }
     y = constrain(y,0,height)
-    triangle(200, y, 175, y, 225, y);
+    triangle(200, y, 250, y, 225, y);
 }
