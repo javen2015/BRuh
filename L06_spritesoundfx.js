@@ -13,10 +13,10 @@ function draw(){
         x-=speed;
     }
     if(keyIsDown(UP_ARROW)){
-        y-=speed;
+        y-=10;
     }
     if(keyIsDown(DOWN_ARROW)){
-        y+=speed;
+        y+=10;
     }
     if(keyIsDown(SPACE)){
         if(colour%2==0){
