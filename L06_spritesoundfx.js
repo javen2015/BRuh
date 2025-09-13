@@ -27,5 +27,5 @@ function draw(){
     }
     x = constrain(x,50,width-50)
     y = constrain(y,50,height-50)
-    circle(x, y, 50);
+    square(x, y, 50);
 }
