@@ -82,34 +82,34 @@
 //         colourB = 0;
 //     }
 // }
-let colourR = 0;
-let colourG = 0;
-let colourB = 0;
-function setup() {
-    createCanvas(600, 400);
-}
-function draw(){
-    background(220);
-    fill(colourR,colourG,colourB);
-    circle(width/2, height/2, 100);
-    if (mouseX < 100) {
-        colourR = 255;
-        colourG = 0;
-        colourB = 0;
-    }
-    else if (key === 'w') {
-        colourR = 255;
-        colourG = 255;
-        colourB = 255;
-    }else if (mouseX>=100 
-        && mouseX < 200
-    ) {
-        colourR = 0;
-        colourG = 255;
-        colourB = 0;
-    }else if (mouseX>=200){
-        colourR = 0;
-        colourG = 0;
-        colourB = 255;
-    }
-}
+// let colourR = 0;
+// let colourG = 0;
+// let colourB = 0;
+// function setup() {
+//     createCanvas(600, 400);
+// }
+// function draw(){
+//     background(220);
+//     fill(colourR,colourG,colourB);
+//     circle(width/2, height/2, 100);
+//     if (mouseX < 100) {
+//         colourR = 255;
+//         colourG = 0;
+//         colourB = 0;
+//     }
+//     else if (key === 'w') {
+//         colourR = 255;
+//         colourG = 255;
+//         colourB = 255;
+//     }else if (mouseX>=100 
+//         && mouseX < 200
+//     ) {
+//         colourR = 0;
+//         colourG = 255;
+//         colourB = 0;
+//     }else if (mouseX>=200){
+//         colourR = 0;
+//         colourG = 0;
+//         colourB = 255;
+//     }
+// }
