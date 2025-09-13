@@ -22,7 +22,7 @@ function draw(){
         if(colour%2==0){
             fill(50);
         }else{
-            
+            fill(200);
         }
     }
     x = constrain(x,50,width-50)
