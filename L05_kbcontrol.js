@@ -132,7 +132,9 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=1
     }
-    if(keyIsDown())
+    if(keyIsDown(SHIFT)){
+        
+    }
     x = constrain(x,0,width)
     y = constrain(y,0,height)
     circle(x, y, 50);
