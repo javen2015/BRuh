@@ -31,4 +31,9 @@
 //     y = constrain(y,50,height-50);
 //     square(x, y, 50,50);
 // }
-let soundEffect, bgMusic,static
+let soundEffect, bgMusic,staticImage;
+function preload(){
+    soundEffect = loadSound('assets/soundeffect.wav');
+    bgMusic = loadSound('assets/bgmusic.mp3');
+    staticImage = loadImage('assets/staticimage.png');
+}
