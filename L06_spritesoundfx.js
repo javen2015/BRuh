@@ -21,7 +21,7 @@ function draw(){
     if(keyIsDown(SHIFT)){
         speed+=1
     }
-    x = constrain(x,50,width)
-    y = constrain(y,50,height)
+    x = constrain(x,50,width-50)
+    y = constrain(y,50,height-50)
     circle(x, y, 50);
 }
