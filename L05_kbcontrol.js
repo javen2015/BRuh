@@ -113,7 +113,7 @@
 //         colourB = 255;
 //     }
 // }
-let x =200;
+let x =0;
 function setup() {
     createCanvas(400, 400);
 }
@@ -121,7 +121,7 @@ function draw(){
     background(220);
     if(keyIsDown(RIGHT_ARROW)){
         x+=1
-        console.log("right")
+        
     }
     circle(width/2, height/2, 100);
 }
