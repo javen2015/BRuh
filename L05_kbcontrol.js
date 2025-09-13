@@ -122,16 +122,16 @@ function setup() {
 function draw(){
     background(220);
     if(keyIsDown(RIGHT_ARROW)){
-        x+=1
+        x+=speed
     }
     if(keyIsDown(LEFT_ARROW)){
-        x-=1
+        x-=speed
     }
     if(keyIsDown(UP_ARROW)){
-        y-=1
+        y-=speed
     }
     if(keyIsDown(DOWN_ARROW)){
-        y+=1
+        y+=speed
     }
     if(keyIsDown(SHIFT)){
         speed+=1
