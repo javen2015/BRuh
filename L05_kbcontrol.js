@@ -140,3 +140,20 @@
 //     y = constrain(y,0,height)
 //     circle(x, y, 50);
 // }
+let x =0;
+let y = 0;
+let speed = 1;
+function setup() {
+    createCanvas(400, 400);
+}
+function draw(){
+    background(220);
+    if(keyIsDown(UP_ARROW)){
+        y-=speed
+    }
+    if(keyIsDown(DOWN_ARROW)){
+        y+=speed
+    }
+    y = constrain(y,0,height)
+    triangle(200, y, 175, y+50, 225, y+50);
+}
