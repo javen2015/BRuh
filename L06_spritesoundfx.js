@@ -20,7 +20,9 @@ function draw(){
     }
     if(keyIsDown(SPACE)){
         if(colour%2==0){
-            fill()
+            fill(50);
+        }else{
+            
         }
     }
     x = constrain(x,50,width-50)
