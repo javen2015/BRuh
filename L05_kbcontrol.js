@@ -132,5 +132,6 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=1
     }
-    circle(x, y, 100);
+    
+    circle(x, y, 50);
 }
