@@ -134,7 +134,7 @@ function draw(){
         y+=1
     }
     if(keyIsDown(SHIFT)){
-        
+        speed+=1
     }
     x = constrain(x,0,width)
     y = constrain(y,0,height)
