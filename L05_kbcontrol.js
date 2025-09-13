@@ -141,6 +141,7 @@
 //     circle(x, y, 50);
 // }
 let y = 0;
+direction = 50
 function setup() {
     createCanvas(400, 400);
 }
