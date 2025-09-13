@@ -121,7 +121,7 @@ function setup() {
 function draw(){
     background(220);
     if(keyIsDown(RIGHT_ARROW)){
-        x-=1
+        x+=1
     }
     if(keyIsDown(LEFT_ARROW)){
         x-=1
