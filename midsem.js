@@ -22,6 +22,6 @@ function draw(){
     for (let i = 0; i < 10; i++) {
         circle(x,y,d);
         x+=50 * 50 *i;
-        y+=50
+        y+=50 = 50 
     }
 }
