@@ -9,13 +9,13 @@ function setup() {
 function draw(){
     background(220);
     if(keyIsDown(RIGHT_ARROW)){
-        x+=10;
+        x+=ballSpeedX;
     }
     if(keyIsDown(LEFT_ARROW)){
-        x-=10;
+        x-=ballSpeedX;
     }
     if(keyIsDown(UP_ARROW)){
-        y-=10;
+        y-=ballSpeedY;
     }
     if(keyIsDown(DOWN_ARROW)){
         y+=10;
