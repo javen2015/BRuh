@@ -1,6 +1,8 @@
 let ballX = 200;
 let ballY = 200;
 let ballSpeedX = 5;
+let ballSpeedY = 3;
+
 let colour = 1;
 function setup() {
     createCanvas(400, 400);
@@ -19,7 +21,7 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=10;
     }
-    x = constrain(x,0,width);
-    y = constrain(y,0,height);
+    x = constrain(ballX,0,width);
+    y = constrain(ballY,0,height);
     circle(x, y,50);
 }
