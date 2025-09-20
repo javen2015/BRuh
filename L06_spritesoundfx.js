@@ -54,12 +54,12 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=10;
     }
-    x = constrain(x,0,200);
-    y = constrain(y,0,200);
+    x = constrain(x,0,600);
+    y = constrain(y,0,600);
     image(staticImage,x,y,width,height);
 }
 function setup() {
-    createCanvas(200,200);
+    createCanvas(600,600);
     background('lightblue');
     backgroundSound.loop();
 }
