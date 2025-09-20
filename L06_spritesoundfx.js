@@ -55,7 +55,7 @@ function draw(){
     }
     x = constrain(x,0,600);
     y = constrain(y,0,600);
-    image(staticImage,x,y,w,height);
+    image(staticImage,x,y,w,100);
 }
 function setup() {
     createCanvas(600,600);
