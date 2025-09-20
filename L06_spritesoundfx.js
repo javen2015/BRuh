@@ -55,7 +55,7 @@ function draw(){
     }
     x = constrain(x,0,600);
     y = constrain(y,0,600);
-    image(staticImage,x,y,width,height);
+    image(staticImage,x,y,w,height);
 }
 function setup() {
     createCanvas(600,600);
@@ -65,9 +65,9 @@ function setup() {
 function keyPressed(){
     if(keyCode===32){
         soundEffect.play();
-        width = 50;
+        w = 50;
     }
 }
 function keyReleased(){
-    width = 100;
+    w = 100;
 }
