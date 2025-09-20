@@ -13,6 +13,8 @@
 //     rect(400,150,100,100);
 // }
 let d = 50;
+let x = 50;
+let y = 50;
 function setup(){
     createCanvas(600,600);
 }
