@@ -34,7 +34,6 @@
 let x = 0;
 let y = 0;
 let width = 100;
-let height = 100;
 let soundEffect, backgroundSound,staticImage;
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
@@ -66,8 +65,7 @@ function setup() {
 function keyPressed(){
     if(keyCode===32){
         soundEffect.play();
-        width = 50
-        height = 50
+        width = 50;
     }
 }
 function keyReleased(){
