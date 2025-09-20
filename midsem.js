@@ -15,6 +15,7 @@
 let d = 50;
 let x = 50;
 let y = 50;
+let colour = 0
 function setup(){
     createCanvas(600,600);
 }
