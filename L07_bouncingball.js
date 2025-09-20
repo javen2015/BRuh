@@ -22,5 +22,5 @@ function draw(){
     }
     x = constrain(ballX,0,width);
     y = constrain(ballY,0,height);
-    circle(ballX, ballY,50);
+    circle(ballX, ballY,ballSize);
 }
