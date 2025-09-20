@@ -53,7 +53,7 @@ function draw(){
         y+=10;
     }
      x = constrain(x,50,200);
-     y = constrain(y,50,height-50);
+     y = constrain(y,50,200);
 }
 function setup() {
     createCanvas(200,200);
