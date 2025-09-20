@@ -6,5 +6,5 @@ function setup() {
 function draw() {
     circle(100,200,100);
     triangle(250,250,300,150,350,250);
-    
+    React
 }
