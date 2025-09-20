@@ -41,6 +41,7 @@ function preload(){
     backgroundSound = loadSound('assets/Win.mp3');
 }
 function draw(){
+    createCanvas(600,600);
     background('lightblue');
     if(keyIsDown(RIGHT_ARROW)){
         x+=10;
