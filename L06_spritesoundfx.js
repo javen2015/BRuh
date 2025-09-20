@@ -60,11 +60,12 @@ function draw(){
 function setup() {
     createCanvas(200,200);
     background('lightblue');
-    image(staticImage,x,y,width,100);
+    image(staticImage,x,y,width,height);
     backgroundSound.loop();
 }
 function keyPressed(){
     if(keyCode===32){
         soundEffect.play();
+        width = 
     }
 }
