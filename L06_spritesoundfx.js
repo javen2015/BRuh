@@ -41,6 +41,7 @@ function preload(){
     backgroundSound = loadSound('assets/Win.mp3');
 }
 function draw(){
+    background('lightblue');
     if(keyIsDown(RIGHT_ARROW)){
         x+=10;
     }
@@ -58,7 +59,6 @@ function draw(){
     image(staticImage,x,y,w,100);
 }
 function setup() {
-    createCanvas(600,600);
     backgroundSound.loop();
 }
 function keyPressed(){
