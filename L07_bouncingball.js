@@ -1,5 +1,5 @@
-let x =200;
-let y = 200;
+let ballX =200;
+let ballY = 200;
 let colour = 1;
 function setup() {
     createCanvas(400, 400);
