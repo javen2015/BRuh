@@ -8,20 +8,21 @@ function setup() {
 }
 function draw(){
     background(220);
-    if(keyIsDown(RIGHT_ARROW)){
-        ballX+=ballSpeedX;
-    }
-    if(keyIsDown(LEFT_ARROW)){
-        ballX-=ballSpeedX;
-    }
-    if(keyIsDown(UP_ARROW)){
-        ballY-=ballSpeedY;
-    }
-    if(keyIsDown(DOWN_ARROW)){
-        ballY+=ballSpeedY;
-    }
-    x = constrain(ballX,0,width);
-    y = constrain(ballY,0,height);
+    // if(keyIsDown(RIGHT_ARROW)){
+    //     ballX+=ballSpeedX;
+    // }
+    // if(keyIsDown(LEFT_ARROW)){
+    //     ballX-=ballSpeedX;
+    // }
+    // if(keyIsDown(UP_ARROW)){
+    //     ballY-=ballSpeedY;
+    // }
+    // if(keyIsDown(DOWN_ARROW)){
+    //     ballY+=ballSpeedY;
+    // }
+    // x = constrain(ballX,0,width);
+    // y = constrain(ballY,0,height);
+    ballX =
     noStroke();
     fill(349);
     circle(ballX, ballY,ballSize);
