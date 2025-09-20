@@ -58,7 +58,7 @@ function draw(){
 function setup() {
     createCanvas(200,200);
     background('lightblue');
-    image(staticImage,0,0,x,y);
+    image(staticImage,0,0,100,100);
     backgroundSound.loop();
 }
 function keyPressed(){
