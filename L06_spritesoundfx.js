@@ -35,6 +35,7 @@ let soundEffect, bgMusic,staticImage;
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
     soundEffect = loadSound('assets/DunDunDunnn.mp3');
+    backgroundSound = loadSound('assets/bgMusic.mp3');
 }
 function setup() {
     createCanvas(200,200);
