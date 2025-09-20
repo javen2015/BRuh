@@ -54,8 +54,8 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=10;
     }
-    x = constrain(x,50,);
-    y = constrain(y,50,height-50);
+    x = constrain(x,0,width);
+    y = constrain(y,0,);
     image(staticImage,x,y,width,height);
 }
 function setup() {
