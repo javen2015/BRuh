@@ -68,3 +68,7 @@ function keyPressed(){
         soundEffect.play();
     }
 }
+function keyReleased(){
+    width = 100;
+    height = 100;
+}
