@@ -39,17 +39,6 @@ function preload(){
     soundEffect = loadSound('assets/DunDunDunnn.mp3');
     backgroundSound = loadSound('assets/Win.mp3');
 }
-function setup() {
-    createCanvas(200,200);
-    background('lightblue');
-    image(staticImage,x,y,100,100);
-    backgroundSound.loop();
-}
-function keyPressed(){
-    if(keyCode===32){
-        soundEffect.play();
-    }
-}
 function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         x+=10;
@@ -65,4 +54,15 @@ function draw(){
     }
      x = constrain(x,50,width-50);
      y = constrain(y,50,height-50);
+}
+function setup() {
+    createCanvas(200,200);
+    background('lightblue');
+    image(staticImage,x,y,100,100);
+    backgroundSound.loop();
+}
+function keyPressed(){
+    if(keyCode===32){
+        soundEffect.play();
+    }
 }
