@@ -63,4 +63,6 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=10;
     }
+     x = constrain(x,50,width-50);
+     y = constrain(y,50,height-50);
 }
