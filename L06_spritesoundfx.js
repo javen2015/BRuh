@@ -33,6 +33,7 @@
 // }
 let x = 0;
 let y = 0;
+let width = 
 let soundEffect, backgroundSound,staticImage;
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
