@@ -21,9 +21,10 @@ function setup(){
 }
 function draw(){
     for (let i = 0; i < 10; i++) {
+        FileList()
         circle(x,y,d);
         x=50 + 50 *i;
         y=50 + 50 * i;
-        
+        colour = 25 * i;
     }
 }
