@@ -22,6 +22,7 @@ function draw(){
     }
     x = constrain(ballX,0,width);
     y = constrain(ballY,0,height);
-    noStroke()
+    noStroke();
+    fill
     circle(ballX, ballY,ballSize);
 }
