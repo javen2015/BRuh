@@ -1,5 +1,6 @@
-let ballX =200;
+let ballX = 200;
 let ballY = 200;
+let ballSpeedX = 5;
 let colour = 1;
 function setup() {
     createCanvas(400, 400);
