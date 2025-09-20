@@ -31,7 +31,7 @@
 //     y = constrain(y,50,height-50);
 //     square(x, y, 50,50);
 // }
-let soundEffect, bgMusic,staticImage;
+let soundEffect, backgroundSound,staticImage;
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
     soundEffect = loadSound('assets/DunDunDunnn.mp3');
