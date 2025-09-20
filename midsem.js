@@ -18,6 +18,7 @@ let y = 50;
 let colour = 0
 function setup(){
     createCanvas(600,600);
+    background(200);
 }
 function draw(){
     for (let i = 0; i < 10; i++) {
