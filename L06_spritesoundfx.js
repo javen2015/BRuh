@@ -54,8 +54,6 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y+=10;
     }
-     x = constrain(x,0,200);
-     y = constrain(y,0,200);
 }
 function setup() {
     createCanvas(200,200);
