@@ -31,6 +31,8 @@
 //     y = constrain(y,50,height-50);
 //     square(x, y, 50,50);
 // }
+let x = 0;
+let y = 0;
 let soundEffect, backgroundSound,staticImage;
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
