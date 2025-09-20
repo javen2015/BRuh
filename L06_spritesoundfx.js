@@ -66,7 +66,7 @@ function setup() {
 function keyPressed(){
     if(keyCode===32){
         soundEffect.play();
-         width = 50
+        width = 50
         height = 50
     }
 }
