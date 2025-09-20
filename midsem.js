@@ -23,5 +23,6 @@ function draw(){
         circle(x,y,d);
         x=50 + 50 *i;
         y=50 + 50 * i;
+        
     }
 }
