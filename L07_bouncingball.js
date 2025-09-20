@@ -1,8 +1,8 @@
 let ballX = 200;
 let ballY = 200;
 let ballSize = 30;
-let ballSpeedX = 5;
-let ballSpeedY = 5;
+let ballSpeedX = 2;
+let ballSpeedY = 2;
 
 let colour = 1;
 function setup() {
