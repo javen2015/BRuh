@@ -1,7 +1,7 @@
 let ballX = 200;
 let ballY = 200;
 let ballSpeedX = 5;
-let ballSpeedY = 3;
+let ballSpeedY = 5;
 
 let colour = 1;
 function setup() {
@@ -23,5 +23,5 @@ function draw(){
     }
     x = constrain(ballX,0,width);
     y = constrain(ballY,0,height);
-    circle(x, y,50);
+    circle(ballSpeedX, ballSpeedY,50);
 }
