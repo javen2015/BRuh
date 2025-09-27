@@ -1,3 +1,5 @@
+let favouriteFoods = ["Pizza","Sushi","Ice Cream","Hotpot","Pasta"];
+
 function setup(){
     createCanvas(400,400);
     background(220);
