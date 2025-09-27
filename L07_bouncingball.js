@@ -30,9 +30,9 @@ function draw(){
         ballSpeedX *= -1;
     }
     if(ballY - ballSize/2 <= 0 || ballY + ballSize/2 >= height){
+        fill(random(255),random(255),random(255));
         ballSpeedY *= -1;
     }
     noStroke();
-    fill(349);
     circle(ballX, ballY,ballSize);
 }
