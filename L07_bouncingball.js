@@ -1,6 +1,6 @@
 let ballX = 200;
 let ballY = 200;
-let ballSize = 30;
+let ballSize = 50;
 let ballSpeedX = 2;
 let ballSpeedY = 2;
 function setup() {
@@ -22,8 +22,15 @@ function draw(){
     // }
     // x = constrain(ballX,0,width);
     // y = constrain(ballY,0,height);
+    
     ballX += ballSpeedX;
     ballY += ballSpeedY;
+    if (ballX - ballSize/2 <= 0 || ballX + ballSize/2 >= width) {
+        ballSpeedX *= -1;
+    }
+    if(ballY - ballSize/2 <= 0 || ballY + ballSize/2 >= height){
+        ballSpeedY *= -1;
+    }
     noStroke();
     fill(349);
     circle(ballX, ballY,ballSize);
