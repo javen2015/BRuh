@@ -8,5 +8,5 @@ function setup(){
 }
 let favouriteFoods = ["Pizza","Sushi","Ice Cream","Hotpot","Pasta"];
 for (let i = 0; i < favouriteFoods.length; i++){
-    console.log(favouriteFoods[i]);
+    text((i+1))
 }
