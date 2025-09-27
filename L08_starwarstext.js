@@ -3,4 +3,5 @@ function setup(){
     background(220);
     textSize(50);
     text("Javen",0 , 150)
+    text("10",50,100)
 }
