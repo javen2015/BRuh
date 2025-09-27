@@ -6,3 +6,4 @@ function setup(){
     text("10",50,100);
     text("Programming",50,150);
 }
+let favor
