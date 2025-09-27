@@ -7,5 +7,5 @@ let y = 200;
 function draw(){    
     square(x,y,50);
     x+=5;
-    contstrain(x,0k)
+    x = contstrain(x,0,width - 50);
 }
