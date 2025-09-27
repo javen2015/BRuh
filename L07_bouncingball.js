@@ -17,6 +17,7 @@ function draw(){
     // }
     if(keyIsDown(UP_ARROW)){
         balllSpeedX*=1.2
+        ballSpeedY*=1.2
     }
     if(keyIsDown(DOWN_ARROW)){
         ballSpeedX*=0.8
