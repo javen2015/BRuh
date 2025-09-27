@@ -7,3 +7,6 @@ function setup(){
     text("Programming",50,150);
 }
 let favouriteFoods = ["Pizza","Sushi","Ice Cream","Hotpot","Pasta"];
+for (let i = 0; i < favouriteFoods.length; i++){
+    console.log(favouriteFoods[i]);
+}
