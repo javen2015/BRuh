@@ -11,7 +11,7 @@ function draw(){
     x+=direction;
     if (x - 50/2 <= 0) {
         fill(random(255),random(255),random(255));
-        direction = 5
+        speedX *= -1;
     }
     if (x + 50/2 >= width){
         fill(random(255),random(255),random(255));
