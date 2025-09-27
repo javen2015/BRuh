@@ -6,7 +6,3 @@ function setup(){
     text("10",50,100);
     text("Programming",50,150);
 }
-let favouriteFoods = ["Pizza","Sushi","Ice Cream","Hotpot","Pasta"];
-for (let i = 0; i < favouriteFoods.length; i++){
-    text((i+1)+ ". " + favouriteFoods[i], 50, 80 + i*30);
-}
