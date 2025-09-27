@@ -4,5 +4,5 @@ function setup(){
     textSize(50);
     text("Javen",0 , 150);
     text("10",50,100);
-    text("oding")
+    text("Programming",50,150);
 }
