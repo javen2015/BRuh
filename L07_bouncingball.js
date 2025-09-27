@@ -15,11 +15,11 @@ function draw(){
     // if(keyIsDown(LEFT_ARROW)){
     //     ballX-=ballSpeedX;
     // }
-    if(keyIsDown(UP_ARROW)){
+    if(keyCode === UP_ARROW){){
         balllSpeedX*=1.2
         ballSpeedY*=1.2
     }
-    if(keyIsDown(DOWN_ARROW)){
+    if(keyCode === DOWN_ARROW){){
         ballSpeedX*=0.8
         ballSpeedY*=0.8
     }
