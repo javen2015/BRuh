@@ -7,7 +7,7 @@ let speedX = 5;
 function draw(){    
     background(220);
     x+=speedX;
-    if (x - 50 <= 0 || x + 50 >= width) {
+    if (x <= 0 || x + 50 >= width) {
         fill(random(255),random(255),random(255));
         speedX *= -1;
     }
