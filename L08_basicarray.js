@@ -7,5 +7,8 @@ let y = 200;
 function draw(){    
     square(x,y,50);
     x+=5;
-    x = contstrain(x,0,width - 50);
+    if (x - ballSize/2 <= 0 || ballX + ballSize/2 >= width) {
+        fill(random(255),random(255),random(255));
+        ballSpeedX *= -1;
+    }
 }
