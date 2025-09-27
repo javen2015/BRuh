@@ -16,10 +16,10 @@ function draw(){
     //     ballX-=ballSpeedX;
     // }
     if(keyIsDown(UP_ARROW)){
-        balllSpeedX
+        balllSpeedX*=1.2
     }
     if(keyIsDown(DOWN_ARROW)){
-        ballY+=ballSpeedY;
+        ballSp
     }
     // x = constrain(ballX,0,width);
     // y = constrain(ballY,0,height);
