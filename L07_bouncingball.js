@@ -7,6 +7,7 @@ function setup() {
     createCanvas(600, 400);
     background(220);
 }
+
 function draw(){
     // background(220);
     // if(keyIsDown(RIGHT_ARROW)){
@@ -15,14 +16,6 @@ function draw(){
     // if(keyIsDown(LEFT_ARROW)){
     //     ballX-=ballSpeedX;
     // }
-    if(keyCode === UP_ARROW){){
-        balllSpeedX*=1.2
-        ballSpeedY*=1.2
-    }
-    if(keyCode === DOWN_ARROW){){
-        ballSpeedX*=0.8
-        ballSpeedY*=0.8
-    }
     // x = constrain(ballX,0,width);
     // y = constrain(ballY,0,height);
     
@@ -38,4 +31,14 @@ function draw(){
     }
     noStroke();
     circle(ballX, ballY,ballSize);
+}
+function keyPressed(){
+    if(keyCode === UP_ARROW){
+        balllSpeedX*=1.2
+        ballSpeedY*=1.2
+    }
+    if(keyCode === DOWN_ARROW){
+        ballSpeedX*=0.8
+        ballSpeedY*=0.8
+    }
 }
