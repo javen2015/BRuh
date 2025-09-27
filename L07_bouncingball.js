@@ -4,7 +4,7 @@ let ballSize = 30;
 let ballSpeedX = 2;
 let ballSpeedY = 2;
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(600, 400);
     background(220);
 }
 function draw(){
@@ -15,12 +15,12 @@ function draw(){
     // if(keyIsDown(LEFT_ARROW)){
     //     ballX-=ballSpeedX;
     // }
-    // if(keyIsDown(UP_ARROW)){
-    //     ballY-=ballSpeedY;
-    // }
-    // if(keyIsDown(DOWN_ARROW)){
-    //     ballY+=ballSpeedY;
-    // }
+    if(keyIsDown(UP_ARROW)){
+        ballY-=ballSpeedY;
+    }
+    if(keyIsDown(DOWN_ARROW)){
+        ballY+=ballSpeedY;
+    }
     // x = constrain(ballX,0,width);
     // y = constrain(ballY,0,height);
     
