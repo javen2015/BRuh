@@ -8,11 +8,11 @@ let direction = 5;
 function draw(){    
     square(x,y,50);
     x+=direction;
-    if (x - 50 <= 0) {
+    if (x - 2.5 <= 0) {
         fill(random(255),random(255),random(255));
         direction = 5
     }
-    if (x + 5 >= width){
+    if (x + 2.5 >= width){
         fill(random(255),random(255),random(255));
         direction = -5;
     }
