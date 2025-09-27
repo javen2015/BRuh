@@ -12,4 +12,5 @@ function draw(){
         fill(random(255),random(255),random(255));
         speedX *= -1;
     }
+    rect(x,y,50,50);
 }
