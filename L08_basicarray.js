@@ -12,4 +12,8 @@ function draw(){
         fill(random(255),random(255),random(255));
         direction = 5
     }
+    if (x + 5 >= width){
+        fill(random(255),random(255),random(255));
+        direction = -5;
+    }
 }
