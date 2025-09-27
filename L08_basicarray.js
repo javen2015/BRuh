@@ -3,6 +3,7 @@ function setup(){
 }
 let x = 0;
 let y = 200;
+let speedX = 1;
 let direction = 5;
 function draw(){    
     background(220);
