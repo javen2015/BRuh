@@ -40,6 +40,7 @@ function draw() {
     text(sentence, width / 2, yPos + i * lineGap);
   }
     yPos -= 0.6;
+    console.log(yPos);
     
 
 
