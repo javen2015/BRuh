@@ -56,7 +56,7 @@ function draw() {
   createCanvas(600, 400);
   fill(255, 255, 0);
   textSize(24);
-  textAlign(CENTER+, CENTER);
+  textAlign(CENTER+(width/2), CENTER);
   if(audioStarted){
   push();
   translate(width / 2, yPos);
