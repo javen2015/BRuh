@@ -53,7 +53,6 @@ function setup() {
 }
 function draw() {
   background('black');
-  createCanvas(600, 400);
   fill(255, 255, 0);
   textSize(24);
   textAlign(CENTER, CENTER);
