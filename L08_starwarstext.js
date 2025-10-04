@@ -25,18 +25,21 @@
 //     text("Moving Text",width/2,yPos);
 //     yPos-=0.6;
 // }
+
 let yPos;
 
-function setup() {
+function draw() {
   createCanvas(600, 400);
   yPos = height;
   fill(255, 255, 0);
   textSize(24);
   textAlign(CENTER, CENTER);
+
+  for (let i = 0; i < storyText.length; i++) {
+    let sentence = storyText[i];
+    text(sentence, width / 2, yPos + i * lineGap);
+  }
+
+
 }
 
-function draw() {
-  background(0);
-  text("Moving Text", width / 2, yPos);
-  yPos -= 0.6;
-}
