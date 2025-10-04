@@ -122,7 +122,7 @@
 //     text("Click to Start", width/2, height/2);
 //   }
 // }
-let yPos;
+let x = 0;
 function setup() {
     createCanvas(400, 400);
     background(255);
