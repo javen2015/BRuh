@@ -52,7 +52,7 @@ function setup() {
     yPos = height;
 }
 function draw() {
-        background(0);
+  background(0);
   createCanvas(600, 400);
   fill(255, 255, 0);
   textSize(24);
