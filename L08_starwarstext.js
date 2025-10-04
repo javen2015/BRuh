@@ -81,6 +81,10 @@ function mousePressed(){
         bgMusic.loop();
         loop();
         audioStarted = true;
+    }else{
+        audioStarted = false;
+        bgMusic.stop();
+        noLoop();
     }
 }
 
