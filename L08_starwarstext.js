@@ -53,8 +53,6 @@ function draw() {
   textSize(24);
   textAlign(CENTER, CENTER);
   if(audioStarted){
-    
-  }
   push();
   translate(width / 2, yPos);
   scale(1,3);
@@ -65,6 +63,8 @@ function draw() {
   }
   pop();
     yPos -= 0.6;
+
+  }
 
 
 }
