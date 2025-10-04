@@ -17,7 +17,8 @@ function setup(){
     createCanvas(600,400);
     ypos = height;`
     filll(255,255,0);`
-    textSize();
+    textSize(24);
+    textAlign(CENTER);\
 }
 function draw(){
     for (let i = 0; i < favouriteFoods.length; i++){
