@@ -26,69 +26,100 @@
 //     yPos-=0.6;
 // }
 
-let yPos;
-let bgMusic;
-let audioStarted = false;
-function preload(){
-    bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
-}
-let storyText = [
-    "A long time ago in a galaxy far,",
-    "far away...",
-    "",
-    "EPISODE 1",
-    "THE BEGINNING",
-    "It is a period of learning...",
-    "Students have begun their journey",
-    "into the world of p5.js.",
-    "With newfound powers, they",
-    "create amazing visuals and",
-    "animations...",
-    "",
-    "May the Code be with you!"
-];
+// let yPos;
+// let bgMusic;
+// let audioStarted = false;
+// function preload(){
+//     bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
+// }
+// let storyText = [
+//     "A long time ago in a galaxy far,",
+//     "far away...",
+//     "",
+//     "EPISODE 1",
+//     "THE BEGINNING",
+//     "It is a period of learning...",
+//     "Students have begun their journey",
+//     "into the world of p5.js.",
+//     "With newfound powers, they",
+//     "create amazing visuals and",
+//     "animations...",
+//     "",
+//     "May the Code be with you!"
+// ];
+// function setup() {
+//     createCanvas(600, 400);
+//     yPos = height;
+// }
+// function draw() {
+//   background('black');
+//   createCanvas(600, 400);
+//   fill(255, 255, 0);
+//   textSize(24);
+//   textAlign(CENTER, CENTER);
+//   if(audioStarted){
+//   push();
+//   translate(width / 2, yPos);
+//   scale(1,3);
+
+//   for (let i = 0; i < storyText.length; i++) {
+//     let sentence = storyText[i];
+//     text(sentence, width / 2, i * 20);
+//   }
+//   pop();
+//     yPos -= 0.6;
+//   //reset
+//   console.log(yPos);
+//     if (yPos < - storyText.length * 60) {
+//         yPos = height;
+//     }
+//   }else{
+//     text("Click to Start",width/2,height/2);
+//   }
+
+
+// }
+// function mousePressed(){
+//     if(!audioStarted){
+//         userStartAudio();
+//         bgMusic.loop();
+//         loop();
+//         audioStarted = true;
+//     }else{
+//         audioStarted = false;
+//         bgMusic.stop();
+//         noLoop();
+//     }
+// }
+
 function setup() {
     createCanvas(600, 400);
     yPos = height;
 }
+
 function draw() {
-  background('black');
-  createCanvas(600, 400);
+  background('black');  // now works as expected
   fill(255, 255, 0);
   textSize(24);
   textAlign(CENTER, CENTER);
-  if(audioStarted){
-  push();
-  translate(width / 2, yPos);
-  scale(1,3);
 
-  for (let i = 0; i < storyText.length; i++) {
-    let sentence = storyText[i];
-    text(sentence, width / 2, i * 20);
-  }
-  pop();
+  if(audioStarted){
+    push();
+    translate(width / 2, yPos);
+    scale(1,3);
+
+    for (let i = 0; i < storyText.length; i++) {
+      let sentence = storyText[i];
+      text(sentence, width / 2, i * 20);
+    }
+
+    pop();
     yPos -= 0.6;
-  //reset
-  console.log(yPos);
+
     if (yPos < - storyText.length * 60) {
         yPos = height;
     }
-  }else{
-    text("Click to Start",width/2,height/2);
+  } else {
+    text("Click to Start", width/2, height/2);
   }
-
-
 }
-function mousePressed(){
-    if(!audioStarted){
-        userStartAudio();
-        bgMusic.loop();
-        loop();
-        audioStarted = true;
-    }else{
-        audioStarted = false;
-        bgMusic.stop();
-        noLoop();
-    }
-}
-
