@@ -128,24 +128,4 @@ function setup() {
     yPos = width;
 }
 function draw() {
-  background(255,255,255);
-  fill(255, 255, 0);
-  textSize(24);
-  textAlign(CENTER, CENTER);
-  push();
-  translate(width / 2, yPos);
-  scale(1,3);
-
-  for (let i = 0; i < storyText.length; i++) {
-    text("Bounce!", width / 2, i * 20);
-  }
-  pop();
-    yPos -= 0.6;
-  //reset
-  console.log(yPos);
-    if (yPos < - storyText.length * 60) {
-        yPos = width;
-    }
-
-
 }
