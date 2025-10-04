@@ -30,7 +30,7 @@ let yPos;
 let bgMusic;
 let audioStarted = false;
 function preload(){
-    bgMusic = loadSound('assets/StarWars.mp3');
+    bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
 }
 let storyText = [
     "A long time ago in a galaxy far,",
