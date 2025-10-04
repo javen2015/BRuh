@@ -128,5 +128,5 @@ function setup() {
     background(255);
 }
 function draw() {
-    Text("Bounce!",width/2,height/2);
+    text("Bounce!",x,width/2,height/2);
 }
