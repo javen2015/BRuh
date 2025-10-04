@@ -55,7 +55,7 @@ function draw() {
   background('black');
   fill(255, 255, 0);
   textSize(24);
-  textAlign(LEFT, CENTER);
+  textAlign(RIGHT+50, CENTER);
   if(audioStarted){
   push();
   translate(width / 2, yPos);
