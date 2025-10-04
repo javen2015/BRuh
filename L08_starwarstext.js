@@ -23,5 +23,5 @@ function setup(){
 function draw(){
     background(0);
     text("Moving Text",width/2,yPos);
-    yPos--;
+    yPos-=0.6;
 }
