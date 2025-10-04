@@ -70,4 +70,10 @@ function draw() {
 
 
 }
+function mousePressed(){
+    if(!audioStarted){
+        backgroundSound.loop();
+        audioStarted = true;
+    }
+}
 
