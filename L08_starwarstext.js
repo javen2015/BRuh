@@ -130,6 +130,8 @@ function setup() {
 function draw() {
     text("Bounce!",x,width/2,height/2);
     if(x>=0){
+        x++;
+    }else{
         
     }
 }
