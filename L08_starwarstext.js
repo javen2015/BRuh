@@ -125,7 +125,7 @@
 let yPos;
 function setup() {
     createCanvas(400, 400);
-    yPos = height;
+    yPos = width;
 }
 function draw() {
   background(255,255,255);
