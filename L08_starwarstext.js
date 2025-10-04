@@ -74,6 +74,7 @@ function mousePressed(){
     if(!audioStarted){
         userStartAudio();
         bgMusic.loop();
+        loop();
         audioStarted = true;
     }
 }
