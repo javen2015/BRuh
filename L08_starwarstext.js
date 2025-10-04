@@ -27,7 +27,25 @@
 // }
 
 let yPos;
-
+let storyText = [
+    "A long time ago in a galaxy far,",
+    "far away...",
+    "",
+    "EPISODE 1",
+    "THE BEGINNING",
+    "It is a period of learning...",
+    "Students have begun their journey",
+    "into the world of p5.js.",
+    "With newfound powers, they",
+    "create amazing visuals and",
+    "animations...",
+    "",
+"May the Code be with you!"
+];
+function setup() {
+    createCanvas(600, 400);
+    yPos = height;
+}
 function draw() {
   createCanvas(600, 400);
   yPos = height;
@@ -35,15 +53,17 @@ function draw() {
   textSize(24);
   textAlign(CENTER, CENTER);
 
+  push();
+  translate(width / 2, yPos);
+  scale(1,3);
+
   for (let i = 0; i < storyText.length; i++) {
     let sentence = storyText[i];
-    text(sentence, width / 2, yPos + i * lineGap);
+    text(sentence, width / 2, yPos + i * 20);
   }
+  pop();
     yPos -= 0.6;
-    console.log(yPos);
-    if (yPos < -storyText.length * (lineGap+5)) {
-        yPos = height;
-    }
+
 
 }
 
