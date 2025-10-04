@@ -70,7 +70,7 @@ function draw() {
     yPos -= 0.6;
   //reset
   console.log(yPos);
-    if (yPos < -storyText.length * 20) {
+    if (yPos < - storyText.length * 60) {
         yPos = height;
     }
   }else{
