@@ -4,7 +4,7 @@ function setup(){
     createCanvas(400,400);
     background(220);
     textSize(30);
-    textAlign(screenLeft,TOP);
+    textAlign(,TOP);
 }
 function draw(){
     for (let i = 0; i < favouriteFoods.length; i++){
