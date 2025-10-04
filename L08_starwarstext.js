@@ -18,7 +18,7 @@ function setup(){
     ypos = height;`
     filll(255,255,0);`
     textSize(24);
-    textAlign(CENTER);\
+    textAlign(CENTER,CENTER);
 }
 function draw(){
     for (let i = 0; i < favouriteFoods.length; i++){
