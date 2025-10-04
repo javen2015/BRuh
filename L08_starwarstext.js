@@ -125,7 +125,8 @@
 let yPos;
 function setup() {
     createCanvas(400, 400);
-    yPos = width;
+    backgroundSound
 }
 function draw() {
+
 }
