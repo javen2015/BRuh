@@ -73,7 +73,7 @@ function draw() {
 function mousePressed(){
     if(!audioStarted){
         userStartAudio();
-        backgroundSound.loop();
+        bgMusic.loop();
         audioStarted = true;
     }
 }
