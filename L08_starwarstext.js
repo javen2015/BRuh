@@ -15,7 +15,7 @@
 let yPos;
 function setup(){
     createCanvas(600,400);
-
+    ypos = height;``
 }
 function draw(){
     for (let i = 0; i < favouriteFoods.length; i++){
