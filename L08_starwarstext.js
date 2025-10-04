@@ -29,6 +29,9 @@
 let yPos;
 let bgMusic;
 let audioStarted = false;
+function preload(){
+    bgMusic = loadSound('assets/StarWars.mp3');
+}
 let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
