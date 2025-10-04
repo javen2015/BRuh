@@ -39,6 +39,8 @@ function draw() {
     let sentence = storyText[i];
     text(sentence, width / 2, yPos + i * lineGap);
   }
+    yPos -= 0.6;
+    
 
 
 }
