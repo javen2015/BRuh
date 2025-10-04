@@ -27,6 +27,8 @@
 // }
 
 let yPos;
+let bgMusic;
+let audioStarted = false;
 let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
