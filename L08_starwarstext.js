@@ -52,7 +52,7 @@ function draw() {
   fill(255, 255, 0);
   textSize(24);
   textAlign(CENTER, CENTER);
-
+  if()
   push();
   translate(width / 2, yPos);
   scale(1,3);
