@@ -68,7 +68,7 @@ function draw() {
   }
   pop();
     yPos -= 0.6;
-
+  //
   }else{
     text("Click to Start",width/2,height/2);
   }
