@@ -125,13 +125,14 @@
 let x = 0;
 function setup() {
     createCanvas(400, 400);
-    background(255);
+    background(220);
 }
 function draw() {
-    text("Bounce!",x,width/2,height/2);
-    if(x>=0){
+    background(220);
+    text("Bounce!",x,height/2);
+    if(x>=0 || x<=400){
         x++;
-    }else{
-        x--;
+    }else if (x===400){
+        x-=1;
     }
 }
