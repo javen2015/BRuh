@@ -137,14 +137,14 @@ function draw() {
   scale(1,3);
 
   for (let i = 0; i < storyText.length; i++) {
-    text(sentence, width / 2, i * 20);
+    text("Bounce!", width / 2, i * 20);
   }
   pop();
     yPos -= 0.6;
   //reset
   console.log(yPos);
     if (yPos < - storyText.length * 60) {
-        yPos = height;
+        yPos = width;
     }
 
 
