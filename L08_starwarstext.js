@@ -15,7 +15,7 @@
 let yPos;
 function setup(){
     createCanvas(600,400);
-    ypos = height;`
+    yPos = height;`
     filll(255,255,0);`
     textSize(24);
     textAlign(CENTER,CENTER);
