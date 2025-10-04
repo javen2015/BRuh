@@ -123,26 +123,6 @@
 //   }
 // }
 let yPos;
-let bgMusic;
-let audioStarted = false;
-function preload(){
-    bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
-}
-let storyText = [
-    "A long time ago in a galaxy far,",
-    "far away...",
-    "",
-    "EPISODE 1",
-    "THE BEGINNING",
-    "It is a period of learning...",
-    "Students have begun their journey",
-    "into the world of p5.js.",
-    "With newfound powers, they",
-    "create amazing visuals and",
-    "animations...",
-    "",
-    "May the Code be with you!"
-];
 function setup() {
     createCanvas(400, 400);
     yPos = height;
