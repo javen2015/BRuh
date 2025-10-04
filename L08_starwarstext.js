@@ -12,16 +12,31 @@
 //         text((i+1)+ ". " + favouriteFoods[i], 50, 80 + i*30);
 // }
 // }
+// let yPos;
+// function setup(){
+//     createCanvas(600,400);
+//     yPos = height;`
+//     fill(255,255,0);`
+//     textSize(24);
+//     textAlign(CENTER,CENTER);
+// }
+// function draw(){
+//     background(0);
+//     text("Moving Text",width/2,yPos);
+//     yPos-=0.6;
+// }
 let yPos;
-function setup(){
-    createCanvas(600,400);
-    yPos = height;`
-    fill(255,255,0);`
-    textSize(24);
-    textAlign(CENTER,CENTER);
+
+function setup() {
+  createCanvas(600, 400);
+  yPos = height;
+  fill(255, 255, 0);
+  textSize(24);
+  textAlign(CENTER, CENTER);
 }
-function draw(){
-    background(0);
-    text("Moving Text",width/2,yPos);
-    yPos-=0.6;
+
+function draw() {
+  background(0);
+  text("Moving Text", width / 2, yPos);
+  yPos -= 0.6;
 }
