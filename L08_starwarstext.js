@@ -132,6 +132,6 @@ function draw() {
     if(x>=0){
         x++;
     }else{
-        
+        x--;
     }
 }
