@@ -48,7 +48,6 @@ let storyText = [
 "May the Code be with you!"
 ];
 function setup() {
-    backgroundSound(0);
     createCanvas(600, 400);
     yPos = height;
 }
