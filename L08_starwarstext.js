@@ -68,7 +68,11 @@ function draw() {
   }
   pop();
     yPos -= 0.6;
-  //
+  //reset
+  console.log(yPos);
+    if (yPos < -storyText.length * 20) {
+        yPos = height;
+    }
   }else{
     text("Click to Start",width/2,height/2);
   }
