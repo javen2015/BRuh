@@ -12,8 +12,7 @@
 //         text((i+1)+ ". " + favouriteFoods[i], 50, 80 + i*30);
 // }
 // }
-let favouriteFoods = ["Pizza","Sushi","Ice Cream","Hotpot","Pasta"];
-
+let yPos;
 function setup(){
     createCanvas(400,400);
     background(220);
