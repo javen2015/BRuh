@@ -144,11 +144,11 @@ let storyText = [
     "May the Code be with you!"
 ];
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(400, 400);
     yPos = height;
 }
 function draw() {
-  background('black');
+  background(255,255,255);
   fill(255, 255, 0);
   textSize(24);
   textAlign(CENTER, CENTER);
@@ -168,21 +168,6 @@ function draw() {
     if (yPos < - storyText.length * 60) {
         yPos = height;
     }
-  }else{
-    text("Click to Start",width/2,height/2);
-  }
 
 
-}
-function mousePressed(){
-    if(!audioStarted){
-        userStartAudio();
-        bgMusic.loop();
-        loop();
-        audioStarted = true;
-    }else{
-        audioStarted = false;
-        bgMusic.stop();
-        noLoop();
-    }
 }
