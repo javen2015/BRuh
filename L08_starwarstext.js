@@ -53,7 +53,7 @@ function draw() {
   textSize(24);
   textAlign(CENTER, CENTER);
   if(audioStarted){
-  push();
+      push();
   translate(width / 2, yPos);
   scale(1,3);
 
