@@ -4,8 +4,6 @@ function setup(){
 }
 
 function draw(){
-    background(220);
-    let hour,minute,second;
     hour = nf(hour(),2);
     minute = nf(minute(),2);
     second = nf(second(),2);
