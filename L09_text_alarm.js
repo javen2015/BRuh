@@ -15,10 +15,7 @@ let countdown = 5;
 let interval;
 let colour = 220;
 function draw(){
-    if(countdown > 0){
-        countdown-=1;
-    }else{
-        clearInterval(interval);
+    if(!countdown > 0){
         colour = random(255),random(255),random(255)
     }
     background(colour,colour,colour);
