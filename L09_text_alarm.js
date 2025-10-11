@@ -13,8 +13,9 @@ function setup(){
 // }
 let countdown = 5;
 let interval;
+let colour = 220;
 function draw(){
-    background(random(255),random(255),random(255));
+    background();
     textSize(100);
     text(countdown,width/2,height/2);
     textSize(20);
