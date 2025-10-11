@@ -14,7 +14,10 @@ function setup(){
 
 function draw(){
     background(220);
-    timer = 5
     textSize(100);
-    text(h+ ':' + m+ ':' + s,width/2,height/2);
+    text(timer,width/2,height/2);
+}
+function mousePressed(){
+    timer = 5;
+    setInterval(timeIt,1000);
 }
