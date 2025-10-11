@@ -9,5 +9,5 @@ function draw(){
     m = nf(minute(),2);
     s= nf(second(),2);
     textSize(100);
-    text(hour + ':' + minute + ':' + second,width/2,height/2);
+    text(h+ ':' + m+ ':' + s,width/2,height/2);
 }
