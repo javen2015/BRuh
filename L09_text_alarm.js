@@ -18,6 +18,9 @@ let alarmSound;
 let alarmActive = false;
 let lastSoundPlay
 let bgcolour = 220;
+function preload(){
+    alarmSound = loadSound('assets/BossaNova.mp3');
+}
 function draw(){
     if(countdown <= 0){
         bgcolour = color(random(255),random(255),random(255))
