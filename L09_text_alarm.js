@@ -11,15 +11,23 @@ function setup(){
 //     textSize(100);
 //     text(h+ ':' + m+ ':' + s,width/2,height/2);
 // }
-
+let countdown = 5;
+let timer = countdown;
 function draw(){
     background(220);
     textSize(100);
-    text(timer,width/2,height/2);
+    text(countdown,width/2,height/2);
 }
 function mousePressed(){
     interval = setInterval(updateCountdown,1000);
-    timer = 5;
-    setInterval(timeIt,1000);
+}
+
+function updateCountdown(){
+    if(countdown > 0){
+        countdown-=1;
+    }else{
+        clearInterval(interval);
+        countdown = 5;
+    }
 }
 
