@@ -17,7 +17,7 @@ function draw(){
     background(220);
     textSize(100);
     text(countdown,width/2,height/2);
-    text("Click to Start",width/2,height - 50);
+    text("Click me to start the timer",width/2,height - 50);
 }
 function mousePressed(){
     interval = setInterval(updateCountdown,1000);
