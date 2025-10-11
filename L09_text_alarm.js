@@ -13,10 +13,10 @@ function setup(){
 // }
 let countdown = 5;
 let interval;
-let colour = 220;
+let bgcolour = 220;
 function draw(){
     if(!countdown > 0){
-        colour = random(255),random(255),random(255)
+        bgcolour = random(255),random(255),random(255)
     }
     background(colour,colour,colour);
     textSize(100);
