@@ -17,7 +17,7 @@ let interval;
 let bgcolour = 220;
 function draw(){
     if(!countdown >= 0){
-        bgcolour = colour(random(255),random(255),random(255))
+        bgcolour = color(random(255),random(255),random(255))
     }
     background(bgcolour);
     textSize(100);
