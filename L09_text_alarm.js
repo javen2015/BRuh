@@ -21,10 +21,4 @@ function mousePressed(){
     timer = 5;
     setInterval(timeIt,1000);
 }
-function timeIt(){
-    timer--;
-    if(timer<=0){
-        alert("Time's up!");
-        timer = "";
-    }
-}
+
