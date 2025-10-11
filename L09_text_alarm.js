@@ -15,7 +15,7 @@ let countdown = 5;
 let interval;
 let colour = 220;
 function draw(){
-    background();
+    background(colour);
     textSize(100);
     text(countdown,width/2,height/2);
     textSize(20);
@@ -30,6 +30,7 @@ function updateCountdown(){
         countdown-=1;
     }else{
         clearInterval(interval);
+        
     }
 }
 
