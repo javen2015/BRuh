@@ -13,6 +13,7 @@ function setup(){
 // }
 let countdown = 5;
 let interval;
+let colour = 0;
 function draw(){
     background(220);
     textSize(100);
