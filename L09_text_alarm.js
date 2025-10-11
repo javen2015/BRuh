@@ -6,5 +6,6 @@ function setup(){
 function draw(){
     background(220);
     hour = nf(hour(),2);
+    minute 
     console.log(hour);
 }
