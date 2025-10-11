@@ -4,7 +4,7 @@ function setup(){
 }
 
 function draw(){
-    backround(220);
+    background(220);
     hour = nf(hour(),2);
     minute = nf(minute(),2);
     second = nf(second(),2);
