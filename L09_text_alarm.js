@@ -12,7 +12,7 @@ function setup(){
 //     text(h+ ':' + m+ ':' + s,width/2,height/2);
 // }
 let countdown = 5;
-let timer = countdown;
+let interval;
 function draw(){
     background(220);
     textSize(100);
