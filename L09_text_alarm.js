@@ -16,5 +16,8 @@ function draw(){
     background(220);
     timer = 5
     textSize(100);
+    setInterval(() => {
+        
+    }, interval);
     text(h+ ':' + m+ ':' + s,width/2,height/2);
 }
