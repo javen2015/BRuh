@@ -16,6 +16,7 @@ let countdown = 5;
 let interval;
 let alarmSound;
 let alarmActive = false;
+let lastColourChange = 0;
 let last
 let bgcolour = 220;
 function preload(){
