@@ -18,7 +18,7 @@ function draw(){
     text(timer,width/2,height/2);
 }
 function mousePressed(){
-    interval = setInterval(update);
+    interval = setInterval(updateCountdown,1000);
     timer = 5;
     setInterval(timeIt,1000);
 }
