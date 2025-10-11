@@ -14,6 +14,8 @@ function setup(){
 // }
 let countdown = 5;
 let interval;
+let alarmSound;
+let alar
 let bgcolour = 220;
 function draw(){
     if(countdown <= 0){
