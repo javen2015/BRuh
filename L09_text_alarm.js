@@ -6,6 +6,9 @@ function setup(){
 function draw(){
     background(220);
     hour = nf(hour(),2);
-    minute 
+    minute = nf(minute(),2);
+    second = nf(second(),2);
+    textSize(100);
+    text(hour + ':' + minute + ':' + second,width/2,height/2);
     console.log(hour);
 }
