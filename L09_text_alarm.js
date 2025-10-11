@@ -1,6 +1,7 @@
 function setup(){
     createCanvas(600,400);
     textAlign(CENTER, CENTER);
+    bgcolour = 220;
 }
 
 // function draw(){
