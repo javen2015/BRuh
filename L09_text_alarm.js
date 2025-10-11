@@ -33,6 +33,7 @@ function updateCountdown(){
         countdown-=1;
     }else{
         clearInterval(interval);
+        
         colour = random(255),random(255),random(255)
     }
 }
