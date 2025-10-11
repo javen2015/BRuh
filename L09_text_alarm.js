@@ -16,7 +16,7 @@ let countdown = 5;
 let interval;
 let alarmSound;
 let alarmActive = false;
-let last
+let lastSoundPlay
 let bgcolour = 220;
 function draw(){
     if(countdown <= 0){
