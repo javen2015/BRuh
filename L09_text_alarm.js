@@ -9,5 +9,4 @@ function draw(){
     second = nf(second(),2);
     textSize(100);
     text(hour + ':' + minute + ':' + second,width/2,height/2);
-    console.log(hour);
 }
