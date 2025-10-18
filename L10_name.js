@@ -58,5 +58,6 @@ function draw(){
     background(220);
     textSize(28);
     textAlign(CENTER, CENTER);
-    text(userText,width/2,height/2);
+    text(userText,width/2,100);
 }
+function updateText(){
