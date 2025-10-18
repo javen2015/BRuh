@@ -7,3 +7,6 @@ use constrain
 key presses 
 loading of sounds
 bouncing of ball - how to move it randomly across the canvas
+alarm 
+timer
+milis(4)
