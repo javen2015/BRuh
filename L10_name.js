@@ -23,7 +23,7 @@ function setup(){
 }
 function draw(){
 
-        bgcolor = color(random(255),random(255),random(255))
+        
     background(bgcolor);
     textSize(100);
     text(countdown,width/2,height/2);
