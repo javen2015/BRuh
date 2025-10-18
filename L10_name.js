@@ -36,7 +36,6 @@ function mousePressed(){
 function updateCountdown(){
     if(countdown > 0){
         countdown-=1;
-        colour = random(255),random(255),random(255)
     }else{
         clearInterval(interval);
         }
