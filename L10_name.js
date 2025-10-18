@@ -14,10 +14,8 @@ function setup(){
 // }
 let countdown = 5;
 let interval;
-let alarmSound;
-let alarmActive = false;
+
 let lastColourChange = 0;
-let lastSoundPlay = 0;
 let timerStarted = false;
 let bgcolor = 220;
 function setup(){
