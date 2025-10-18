@@ -46,4 +46,4 @@
 //     }
 // }
 let inputText;
-let userText = "You "
+let userText = "Your Text Here"
