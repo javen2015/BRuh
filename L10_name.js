@@ -22,9 +22,8 @@ function setup(){
     bgcolor = color(220);
 }
 function draw(){
-    if(countdown <= 0){
+
         bgcolor = color(random(255),random(255),random(255))
-    }
     background(bgcolor);
     textSize(100);
     text(countdown,width/2,height/2);
