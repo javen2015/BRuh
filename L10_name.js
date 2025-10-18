@@ -25,8 +25,8 @@ function preload(){
 }
 function draw(){
     if(countdown <= 0){
-        gcolour = color(random(255),random(255),random(255))
-
+        bgcolour = color(random(255),random(255),random(255))
+    }
     background(bgcolour);
     textSize(100);
     text(countdown,width/2,height/2);
@@ -44,10 +44,14 @@ function mousePressed(){
 function updateCountdown(){
     if(countdown > 0){
         countdown-=1;
-        colour = random(255),random(255),random(255)
     }else{
         clearInterval(interval);
+        if(!alarmActive){
+            alarmActive = true;
+            alarmSound.play();
+            lastSoundPlay = millis();
         }
+        colour = random(255),random(255),random(255)
     }
 }
 function keyPressed(){
