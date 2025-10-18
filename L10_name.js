@@ -24,9 +24,8 @@ function preload(){
     alarmSound = loadSound('assets/BossaNova.mp3');
 }
 function draw(){
-    if(countdown <= 0){
-        bgcolour = color(random(255),random(255),random(255))
-    }
+    bgcolour = color(random(255),random(255),random(255))
+
     background(bgcolour);
     textSize(100);
     text(countdown,width/2,height/2);
