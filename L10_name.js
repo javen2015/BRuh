@@ -30,10 +30,9 @@ function draw(){
     text(countdown,width/2,height/2);
     textSize(20);
     if(!timerStarted){
-        userStartAudio();
         interval = setInterval(updateCountdown,1000);
         timerStarted = true;
-    }//
+    }
 }
 
 function updateCountdown(){
