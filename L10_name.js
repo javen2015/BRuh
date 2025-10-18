@@ -1,47 +1,47 @@
+// // function setup(){
+// //     createCanvas(600,400);
+// //     textAlign(CENTER, CENTER);
+// //     bgcolour = 220;
+// // }
+
+// // function draw(){
+// //     background(220);
+// //     h = nf(hour(),2);
+// //     m = nf(minute(),2);
+// //     s= nf(second(),2);
+// //     textSize(100);
+// //     text(h+ ':' + m+ ':' + s,width/2,height/2);
+// // }
+// let countdown = 5;
+// let interval;
+// let timerStarted = false;
+// let bgcolor = 220;
 // function setup(){
 //     createCanvas(600,400);
 //     textAlign(CENTER, CENTER);
-//     bgcolour = 220;
+//     bgcolor = color(220);
 // }
-
 // function draw(){
-//     background(220);
-//     h = nf(hour(),2);
-//     m = nf(minute(),2);
-//     s= nf(second(),2);
-//     textSize(100);
-//     text(h+ ':' + m+ ':' + s,width/2,height/2);
-// }
-let countdown = 5;
-let interval;
-let timerStarted = false;
-let bgcolor = 220;
-function setup(){
-    createCanvas(600,400);
-    textAlign(CENTER, CENTER);
-    bgcolor = color(220);
-}
-function draw(){
 
         
-    background(bgcolor);
-    textSize(100);
-    text(countdown,width/2,height/2);
-    textSize(20);
-    if(!timerStarted){
-        interval = setInterval(updateCountdown,1000);
-        timerStarted = true;
-    }
-}
+//     background(bgcolor);
+//     textSize(100);
+//     text(countdown,width/2,height/2);
+//     textSize(20);
+//     if(!timerStarted){
+//         interval = setInterval(updateCountdown,1000);
+//         timerStarted = true;
+//     }
+// }
 
-function updateCountdown(){
-    if(countdown > 0){
-        countdown-=1;
-        bgcolor =  color(random(255),random(255),random(255));
-    }else{
-        clearInterval(interval);
-        countdown = 5;
-        timerStarted = false;
+// function updateCountdown(){
+//     if(countdown > 0){
+//         countdown-=1;
+//         bgcolor =  color(random(255),random(255),random(255));
+//     }else{
+//         clearInterval(interval);
+//         countdown = 5;
+//         timerStarted = false;
        
-    }
-}
+//     }
+// }
