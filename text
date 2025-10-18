@@ -5,3 +5,5 @@ mouse functions
 positioning of mouse 0,0
 use constrain
 key presses 
+loading of sounds
+bouncing of ball - how to move it randomly across the canvas
