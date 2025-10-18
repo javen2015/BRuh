@@ -19,45 +19,35 @@ let alarmActive = false;
 let lastColourChange = 0;
 let lastSoundPlay = 0;
 let timerStarted = false;
-let bgcolour = 220;
-function preload(){
-    alarmSound = loadSound('assets/BossaNova.mp3');
+let bgcolor = 220;
+function setup(){
+    createCanvas(600,400);
+    textAlign(CENTER, CENTER);
+    bgcolor = color(220);
 }
 function draw(){
     if(countdown <= 0){
-        bgcolour = color(random(255),random(255),random(255))
+        bgcolor = color(random(255),random(255),random(255))
     }
-    background(bgcolour);
+    background(bgcolor);
     textSize(100);
     text(countdown,width/2,height/2);
     textSize(20);
-    text("Click me to start the timer",width/2,height - 50);
-}
-function mousePressed(){
     if(!timerStarted){
         userStartAudio();
         interval = setInterval(updateCountdown,1000);
         timerStarted = true;
-
+    }//
 }
 
 function updateCountdown(){
     if(countdown > 0){
         countdown-=1;
+        bgcolor =  colour = random(255),random(255),random(255)
     }else{
         clearInterval(interval);
-        if(!alarmActive){
-            alarmActive = true;
-            alarmSound.play();
-            lastSoundPlay = millis();
-        }
-        colour = random(255),random(255),random(255)
-    }
-}
-function keyPressed(){
-    if(keyCode == 32 && alarmActive){
-        alarmSound.stop();
-        alarmActive = false;
-        bgcolour = color(220);
+        countdown = 5;
+        timerStarted = false;
+       
     }
 }
