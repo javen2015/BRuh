@@ -46,10 +46,6 @@ function updateCountdown(){
         countdown-=1;
     }else{
         clearInterval(interval);
-        if(!alarmActive){
-            alarmActive = true;
-            alarmSound.play();
-            lastSoundPlay = millis();
         }
     }
 }
