@@ -23,9 +23,6 @@ function draw(){
     textSize(100);
     text(countdown,width/2,height/2);
     textSize(20);
-    text("Click me to start the timer",width/2,height - 50);
-}
-function mousePressed(){
     if(!timerStarted){
         userStartAudio();
         interval = setInterval(updateCountdown,1000);
