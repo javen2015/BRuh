@@ -13,16 +13,27 @@ function setup(){
 //     text(h+ ':' + m+ ':' + s,width/2,height/2);
 // }
 let countdown = 5;
+let interval;
+let alarmSound;
+let alarmActive = false;
+let lastColourChange = 0;
+let lastSoundPlay = 0;
 let timerStarted = false;
+let bgcolour = 220;
 function preload(){
     alarmSound = loadSound('assets/BossaNova.mp3');
 }
 function draw(){
-    bgcolour = color(random(255),random(255),random(255))
+    if(countdown <= 0){
+        gcolour = color(random(255),random(255),random(255))
+
     background(bgcolour);
     textSize(100);
     text(countdown,width/2,height/2);
     textSize(20);
+    text("Click me to start the timer",width/2,height - 50);
+}
+function mousePressed(){
     if(!timerStarted){
         userStartAudio();
         interval = setInterval(updateCountdown,1000);
@@ -33,6 +44,7 @@ function draw(){
 function updateCountdown(){
     if(countdown > 0){
         countdown-=1;
+        colour = random(255),random(255),random(255)
     }else{
         clearInterval(interval);
         }
