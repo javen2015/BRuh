@@ -13,13 +13,7 @@ function setup(){
 //     text(h+ ':' + m+ ':' + s,width/2,height/2);
 // }
 let countdown = 5;
-let interval;
-let alarmSound;
-let alarmActive = false;
-let lastColourChange = 0;
-let lastSoundPlay = 0;
 let timerStarted = false;
-let bgcolour = 220;
 function preload(){
     alarmSound = loadSound('assets/BossaNova.mp3');
 }
