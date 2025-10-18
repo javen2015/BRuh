@@ -10,3 +10,6 @@ bouncing of ball - how to move it randomly across the canvas
 alarm 
 timer
 milis(4)
+color
+bgcolor
+hours minutes and second
