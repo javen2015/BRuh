@@ -14,8 +14,6 @@ function setup(){
 // }
 let countdown = 5;
 let interval;
-
-let lastColourChange = 0;
 let timerStarted = false;
 let bgcolor = 220;
 function setup(){
