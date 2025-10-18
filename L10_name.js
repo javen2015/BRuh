@@ -25,7 +25,6 @@ function preload(){
 }
 function draw(){
     bgcolour = color(random(255),random(255),random(255))
-
     background(bgcolour);
     textSize(100);
     text(countdown,width/2,height/2);
