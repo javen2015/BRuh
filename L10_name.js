@@ -61,3 +61,5 @@ function draw(){
     text(userText,width/2,100);
 }
 function updateText(){
+    userText = this.value();
+}
