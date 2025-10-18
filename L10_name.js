@@ -37,7 +37,7 @@ function draw(){
 function updateCountdown(){
     if(countdown > 0){
         countdown-=1;
-        bgcolor = random(255),random(255),random(255)
+        bgcolor =  color(random(255),random(255),random(255));
     }else{
         clearInterval(interval);
         countdown = 5;
