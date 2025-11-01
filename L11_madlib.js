@@ -27,4 +27,8 @@ function displayInput(){
     textAlign(CENTER, CENTER);
     text(inputValue, 200,100);
     console.log(inputValue);
+    console.log(inputValue);
+    console.log(inputValue);
+    console.log(inputValue);
+    console.log(inputValue);
 }
