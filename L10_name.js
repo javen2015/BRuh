@@ -77,5 +77,6 @@ function draw(){
     background(colorPicker.value());
     textSize(16);
     textAlign(LEFT);
+    FileList()
     text('Pick a background color',width/2,100);
 }
