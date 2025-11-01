@@ -28,9 +28,9 @@ function displayInput(){
     // background(220);
     // textSize(24);
     // textAlign(CENTER, CENTER);
-    console.log(NounField.value);
-    console.log(VerbField.value);
-    console.log(AdjectiveField.value);
-    console.log(AdverbField.value);
+    console.log(NounField.value());
+    console.log(VerbField.value());
+    console.log(AdjectiveField.value());
+    console.log(AdverbField.value());
     console.log(PlaceField.value);
 }
