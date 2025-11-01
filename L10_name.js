@@ -68,5 +68,7 @@ let ageInput;
 let colorPicker;
 
 function setup(){
+    createCanvas(600,400);
+    colorPicker = createColorPicker('#ff0000');
     
 }
