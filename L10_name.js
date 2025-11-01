@@ -94,7 +94,7 @@ function draw(){
     rect(50,100,500,160,10);
     fill(0);
     text(userText,width/2-50,height/2-25);
-    text(userText2,width/2-50,height/2-25);
+    text(userText2,width/2-50,height/2);
 }
 
 function updateText(){
