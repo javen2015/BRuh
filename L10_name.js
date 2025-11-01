@@ -88,7 +88,7 @@ function draw(){
     fill(255);
     rect(50,100,500,160,10);
     fill(0);
-    text(userText,width/2,height/2);
+    text(userText,width/2-50,height/2-50);
 }
 
 function updateText(){
