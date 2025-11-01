@@ -7,9 +7,9 @@ function setup(){
     background(220);
     inputField = createInput("Enter noun here");
     inputField.position(55, 20);
-    inputField = createInput("Enter  here ");
+    inputField = createInput("Enter verb here ");
     inputField.position(55, 45);
-    inputField = createInput("Enter text here ");
+    inputField = createInput("Enter  here ");
     inputField.position(55, 70);
     inputField = createInput("Enter text here ");
     inputField.position(55, 95);
