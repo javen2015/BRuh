@@ -4,7 +4,7 @@ let AdjectiveField;
 let AdverbField;
 let PlaceField;
 let submitButton;
-let outputArea;
+
 
 function setup(){
     createCanvas(600,400);
@@ -25,9 +25,9 @@ function setup(){
 }
 
 function displayInput(){
-    background(220);
-    textSize(24);
-    textAlign(CENTER, CENTER);
+    // background(220);
+    // textSize(24);
+    // textAlign(CENTER, CENTER);
     console.log(NounField.value);
     console.log(VerbField.value);
     console.log(AdjectiveField.value);
