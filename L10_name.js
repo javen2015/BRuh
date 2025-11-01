@@ -74,6 +74,7 @@ function setup(){
 }
 
 function draw(){
+    rect(0,0,width,height);
     background(colorPicker.value());
     textSize(16);
     textAlign(LEFT);
