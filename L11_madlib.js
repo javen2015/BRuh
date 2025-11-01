@@ -1,4 +1,5 @@
-let inputField;
+let NounField;
+let 
 let submitButton;
 let outputArea;
 
