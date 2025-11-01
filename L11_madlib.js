@@ -32,5 +32,5 @@ function displayInput(){
     console.log(VerbField.value());
     console.log(AdjectiveField.value());
     console.log(AdverbField.value());
-    console.log(PlaceField.value);
+    console.log(PlaceField.value());
 }
