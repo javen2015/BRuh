@@ -93,7 +93,7 @@ function draw(){
     fill(0);
     text('Pick a background color',20,50);
     text('Enter your name:',width/2-230,height/2 + 123);
-    text('Enter your age:',width/2-20,height/2 + 150);
+    text('Enter your age:',width/2-21-0,height/2 + 150);
     textSize(32);
     fill(255);
     rect(50,100,500,160,10);
