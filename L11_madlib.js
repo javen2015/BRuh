@@ -17,5 +17,5 @@ function displayInput(){
     const inputValue = inputField.value();
     textSize(64);
     textAlign(CENTER, CENTER);
-    text(inputValue, 200, height/2);
+    text(inputValue, 200,100);
 }
