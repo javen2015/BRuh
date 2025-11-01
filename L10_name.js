@@ -88,6 +88,7 @@ function draw(){
     background(colorPicker.value());
     textSize(16);
     textAlign(LEFT);
+    text()
     fill(0);
     text('Pick a background color',20,50);
     fill(255);
