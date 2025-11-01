@@ -17,8 +17,8 @@ function setup(){
     AdjectiveField.position(55, 70);
     AdverbField = createInput("Enter adverb here ");
     AdverbField.position(55, 95);
-    inputField = createInput("Enter place here ");
-    inputField.position(55, 120);
+    PlaceField = createInput("Enter place here ");
+    PlaceField.position(55, 120);
     submitButton = createButton("Generate story");
     submitButton.position(inputField.x + inputField.width + 10, inputField.y);
     submitButton.mousePressed(displayInput);
