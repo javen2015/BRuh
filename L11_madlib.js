@@ -12,3 +12,10 @@ function setup(){
     submitButton.mousePressed(displayInput);
 }
 
+function displayInput(){
+    background(220);
+    const inputValue = inputField.value();
+    textSize(64);
+    textAlign(CENTER, CENTER);
+    text(inputValue, width/2, height/2);
+}
