@@ -31,7 +31,7 @@ function displayInput(){
     textAlign(CENTER, CENTER);
     text(inputValue, 200,100);
     console.log(NounField.value);
-    console.log(inputValue);
+    console.log(AdjectiveField.value);
     console.log(inputValue);
     console.log(inputValue);
     console.log(inputValue);
