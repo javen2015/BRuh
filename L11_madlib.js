@@ -20,7 +20,7 @@ function setup(){
     PlaceField = createInput("Enter place here ");
     PlaceField.position(55, 120);
     submitButton = createButton("Generate story");
-    submitButton.position(inputField.x + inputField.width + 10, inputField.y);
+    submitButton.position(width/2,height/2);
     submitButton.mousePressed(displayInput);
 }
 
