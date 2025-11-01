@@ -70,5 +70,9 @@ let colorPicker;
 function setup(){
     createCanvas(600,400);
     colorPicker = createColorPicker('#ff0000');
-    
+    colorPicker.position(20,20);
+    nameInput = createInput();
+    nameInput.position(20,60);
+    ageInput = createInput();
+    ageInput.position(20,100);
 }
