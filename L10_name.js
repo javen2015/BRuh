@@ -80,7 +80,7 @@ function setup(){
     inputText2 = createInput();
     inputText2.position(200, height +100);
     inputText2.size(200);
-    inputText.input(updateText);
+    inputText2.input(updateText);
 }
 
 function draw(){
