@@ -81,7 +81,7 @@ function setup(){
     inputText2 = createInput();
     inputText2.position(200, height +100);
     inputText2.size(200);
-    inputText2.input(updateText);
+    inputText2.input(updateText2);
 }
 
 function draw(){
@@ -98,6 +98,10 @@ function draw(){
     fill(0);
     text(userText,width/2-50,height/2-25);
     text(userText2,width/2-50,height/2);
+}
+
+function updateText(){
+    userText = this.value();
 }
 
 function updateText(){
