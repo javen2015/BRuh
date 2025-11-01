@@ -13,7 +13,7 @@ function setup(){
     NounField.position(55, 20);
     VerbField = createInput("Enter verb here ");
     VerbField.position(55, 45);
-    inputField = createInput("Enter adjective here ");
+    AdjectiveField = createInput("Enter adjective here ");
     inputField.position(55, 70);
     inputField = createInput("Enter adverb here ");
     inputField.position(55, 95);
