@@ -9,8 +9,8 @@ let outputArea;
 function setup(){
     createCanvas(600,400);
     background(220);
-    inputField = createInput("Enter noun here");
-    inputField.position(55, 20);
+    NounField = createInput("Enter noun here");
+    NounField.position(55, 20);
     inputField = createInput("Enter verb here ");
     inputField.position(55, 45);
     inputField = createInput("Enter adjective here ");
