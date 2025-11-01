@@ -11,9 +11,9 @@ function setup(){
     inputField.position(55, 45);
     inputField = createInput("Enter adjective here ");
     inputField.position(55, 70);
-    inputField = createInput("Enter text here ");
+    inputField = createInput("Enter adverb here ");
     inputField.position(55, 95);
-    inputField = createInput("Enter text here ");
+    inputField = createInput("Enter  here ");
     inputField.position(55, 120);
     submitButton = createButton('show');
     submitButton.position(inputField.x + inputField.width + 10, inputField.y);
