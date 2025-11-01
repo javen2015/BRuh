@@ -74,7 +74,7 @@ function setup(){
     colorPicker.position(200,32);
     createCanvas(600,400);
     inputText = createInput();
-    inputText.position(200, height -80);
+    inputText.position(200, height +130);
     inputText.size(200);
     inputText.input(updateText);
 }
