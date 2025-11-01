@@ -70,5 +70,12 @@ let colorPicker;
 function setup(){
     createCanvas(600,400);
     colorPicker = createColorPicker('#ff0000');
-    colorPicker.position(20,20);
+    colorPicker.position(200,32);
+}
+
+function draw(){
+    background(colorPicker.value());
+    textSize(28);
+    textAlign(CENTER, CENTER);
+    text('Pick a background color',width/2,100);
 }
