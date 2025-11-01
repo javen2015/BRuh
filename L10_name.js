@@ -92,6 +92,7 @@ function draw(){
     text("Your Age:",width/2-50,height/2);
     fill(0);
     text('Pick a background color',20,50);
+    text('')
     fill(255);
     rect(50,100,500,160,10);
     fill(0);
