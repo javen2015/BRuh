@@ -9,7 +9,7 @@ function setup(){
     inputField.position(55, 20);
     inputField = createInput("Enter verb here ");
     inputField.position(55, 45);
-    inputField = createInput("Enter  here ");
+    inputField = createInput("Enter adjective here ");
     inputField.position(55, 70);
     inputField = createInput("Enter text here ");
     inputField.position(55, 95);
