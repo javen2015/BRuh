@@ -87,6 +87,7 @@ function draw(){
     text('Pick a background color',20,50);
     fill(255);
     rect(50,100,500,160,10);
+    fill(0);
     text(userText,width/2,height/2);
 }
 
