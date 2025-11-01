@@ -5,9 +5,9 @@ let outputArea;
 function setup(){
     createCanvas(600,400);
     background(220);
-    inputField = createInput("Enter noun ");
+    inputField = createInput("Enter noun here");
     inputField.position(55, 20);
-    inputField = createInput("Enter text here ");
+    inputField = createInput("Enter  here ");
     inputField.position(55, 45);
     inputField = createInput("Enter text here ");
     inputField.position(55, 70);
