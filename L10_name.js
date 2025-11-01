@@ -74,6 +74,7 @@ function setup(){
 }
 
 function draw(){
+    
     fill(255);
     rect(50,100,width/2,height/2);
     background(colorPicker.value());
