@@ -87,3 +87,7 @@ function draw(){
     fill(255);
     rect(50,100,500,160,10);
 }
+
+function updateText(){
+    userText = this.value();
+}
