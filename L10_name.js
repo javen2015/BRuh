@@ -74,6 +74,8 @@ function setup(){
 }
 
 function draw(){
+    fill(255
+    )
     rect(0,0,width,height);
     background(colorPicker.value());
     textSize(16);
