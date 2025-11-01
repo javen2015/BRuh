@@ -1,5 +1,6 @@
 let NounField;
-let 
+let VerbField;
+
 let submitButton;
 let outputArea;
 
