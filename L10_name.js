@@ -88,7 +88,8 @@ function draw(){
     background(colorPicker.value());
     textSize(16);
     textAlign(LEFT);
-    text()
+    text("Your Name:",20,height +115);
+    text("Your Age:",20,height +85);
     fill(0);
     text('Pick a background color',20,50);
     fill(255);
