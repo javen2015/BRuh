@@ -71,6 +71,8 @@ function setup(){
     createCanvas(600,400);
     colorPicker = createColorPicker('#ff0000');
     colorPicker.position(200,32);
+    fill(255);
+    rect(50,100,width/2,height/2);
 }
 
 function draw(){
