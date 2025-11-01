@@ -64,3 +64,5 @@
 //     userText = this.value();
 // }
 let nameINnput;
+let ageInput;
+let color
