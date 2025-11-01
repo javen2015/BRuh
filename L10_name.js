@@ -78,7 +78,7 @@ function setup(){
     inputText.size(200);
     inputText.input(updateText);
     inputText2 = createInput();
-    inputText2.position(200, height +80);
+    inputText2.position(200, height +70);
     inputText2.size(200);
     inputText2.input(updateText);
 }
