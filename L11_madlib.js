@@ -15,7 +15,7 @@ function setup(){
     inputField.position(55, 95);
     inputField = createInput("Enter place here ");
     inputField.position(55, 120);
-    submitButton = createButton('show');
+    submitButton = createButton('Gener');
     submitButton.position(inputField.x + inputField.width + 10, inputField.y);
     submitButton.mousePressed(displayInput);
 }
