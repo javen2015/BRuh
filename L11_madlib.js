@@ -1,6 +1,8 @@
 let NounField;
 let VerbField;
-
+let AdjectiveField;
+let AdverbField;
+let PlaceField;
 let submitButton;
 let outputArea;
 
