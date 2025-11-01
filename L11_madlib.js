@@ -28,7 +28,6 @@ function displayInput(){
     background(220);
     textSize(24);
     textAlign(CENTER, CENTER);
-    text(inputValue, 200,100);
     console.log(NounField.value);
     console.log(VerbField.value);
     console.log(AdjectiveField.value);
