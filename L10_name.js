@@ -104,6 +104,6 @@ function updateText(){
     userText = this.value();
 }
 
-function updateText(){
-    userText = this.value();
+function updateText2(){
+    userText2 = this.value();
 }
