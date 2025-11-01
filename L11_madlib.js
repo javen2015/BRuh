@@ -26,7 +26,6 @@ function setup(){
 
 function displayInput(){
     background(220);
-    const inputValue = inputField.value();
     textSize(24);
     textAlign(CENTER, CENTER);
     text(inputValue, 200,100);
