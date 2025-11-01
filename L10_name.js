@@ -65,4 +65,8 @@
 // }
 let nameINnput;
 let ageInput;
-let color
+let colorPicker;
+
+function setup(){
+    
+}
