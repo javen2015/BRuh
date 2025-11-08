@@ -47,5 +47,5 @@ function displayInput(){
     // console.log(AdjectiveField.value());
     // console.log(AdverbField.value());
     // console.log(PlaceField.value());
-    Text(storyText,50,200,500,200);
+    text(storyText,50,200,500,200);
 }
