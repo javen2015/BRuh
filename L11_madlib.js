@@ -9,17 +9,6 @@ let template;
 
 
 function setup(){
-    storyTemplate = ["The {Adjective} {Noun} decided to {Verb} {Adverb} in the {Place}.",
-                     "Once upon a time, a {Adjective} {Noun} lived in a {Place}.",
-                     "Every day, the {Noun} would {Verb} {Adverb} to the {Place}.",
-                     "One day, a {Adjective} adventure awaited the {Noun} at the {Place}."];
-    template = random(storyTemplate);
-    storyText = template.replace("{Noun}", NounField.value())
-                        .replace("{Verb}", VerbField.value())
-                        .replace("{Adjective}", AdjectiveField.value())
-                        .replace("{Adverb}", AdverbField.value())
-                        .replace("{Place}", PlaceField.value());   
-    console.log(storyText); 
 
     createCanvas(600,400);
     background(220);
@@ -39,6 +28,18 @@ function setup(){
 }
 
 function displayInput(){
+        storyTemplate = ["The {Adjective} {Noun} decided to {Verb} {Adverb} in the {Place}.",
+                     "Once upon a time, a {Adjective} {Noun} lived in a {Place}.",
+                     "Every day, the {Noun} would {Verb} {Adverb} to the {Place}.",
+                     "One day, a {Adjective} adventure awaited the {Noun} at the {Place}."];
+    template = random(storyTemplate);
+    storyText = template.replace("{Noun}", NounField.value())
+                        .replace("{Verb}", VerbField.value())
+                        .replace("{Adjective}", AdjectiveField.value())
+                        .replace("{Adverb}", AdverbField.value())
+                        .replace("{Place}", PlaceField.value());   
+    console.log(storyText); 
+
     // // background(220);
     // // textSize(24);
     // // textAlign(CENTER, CENTER);
