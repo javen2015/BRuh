@@ -6,6 +6,7 @@ function setup() {
     text
     textAlign(CENTER, CENTER);
     words = ["apple", "banana", "cherry", "date", "elderberry"];
+    randomword = random(words);
     background(220);
     inputField = createInput(" ");
     inputField.position(300, 300);
