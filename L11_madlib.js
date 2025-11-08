@@ -19,7 +19,7 @@ function setup(){
                         .replace("{Adjective}", "happy")
                         .replace("{Adverb}", "quickly")
                         .replace("{Place}", "park");   
-                        console.log(storyText); 
+    console.log(storyText); 
 
     createCanvas(600,400);
     background(220);
