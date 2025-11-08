@@ -12,6 +12,7 @@ function setup() {
     inputField = createInput(" ");
     inputField.position(300, 300);
     inputField.style("font-size","20px");
+    text(random)
     submitButton = createButton("show");
     submitButton.position(width/2,height/2);
     submitButton.mousePressed(displayInput);
