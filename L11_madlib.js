@@ -13,7 +13,7 @@ function setup(){
                      "Once upon a time, a {Adjective} {Noun} lived in a {Place}.",
                      "Every day, the {Noun} would {Verb} {Adverb} to the {Place}.",
                      "One day, a {Adjective} adventure awaited the {Noun} at the {Place}."];
-    let template = random(storyTemplate);
+    template = random(storyTemplate);
     storyText = template.replace("{Noun}", NounField.value())
                         .replace("{Verb}", VerbField.value())
                         .replace("{Adjective}", AdjectiveField.value())
