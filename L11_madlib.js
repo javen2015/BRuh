@@ -18,7 +18,8 @@ function setup(){
                         .replace("{Verb}", "run")
                         .replace("{Adjective}", "happy")
                         .replace("{Adverb}", "quickly")
-                        .replace("{Place}", "park");    
+                        .replace("{Place}", "park");   
+                        console.log(storyText); 
 
     createCanvas(600,400);
     background(220);
@@ -46,5 +47,4 @@ function displayInput(){
     // console.log(AdjectiveField.value());
     // console.log(AdverbField.value());
     // console.log(PlaceField.value());
-    Text(storyText, 50, 200, 500, 200);
 }
