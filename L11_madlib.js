@@ -4,10 +4,11 @@ let AdjectiveField;
 let AdverbField;
 let PlaceField;
 let submitButton;
-let template 
+let template;
 
 
 function setup(){
+    
     createCanvas(600,400);
     background(220);
     NounField = createInput("Enter noun here");
