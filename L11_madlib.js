@@ -18,7 +18,7 @@ function setup(){
                         .replace("{Verb}", VerbField.value())
                         .replace("{Adjective}", AdjectiveField.value())
                         .replace("{Adverb}", AdverbField.value())
-                        .replace("{Place}", "park");   
+                        .replace("{Place}", PlaceField.value());   
     console.log(storyText); 
 
     createCanvas(600,400);
