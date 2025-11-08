@@ -8,6 +8,7 @@ function setup() {
     background(220);
     inputField = createInput(" ");
     inputField.position(300, 300);
+    inputField.style("font-size","20px");
     submitButton = createButton("show");
     submitButton.position(width/2,height/2);
     submitButton.mousePressed(displayInput);
