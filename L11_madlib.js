@@ -4,7 +4,7 @@ let AdjectiveField;
 let AdverbField;
 let PlaceField;
 let submitButton;
-let storytext
+let storyText = "";
 let template;
 
 
