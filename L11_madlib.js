@@ -13,8 +13,8 @@ function setup(){
                      "Once upon a time, a {Adjective} {Noun} lived in a {Place}.",
                      "Every day, the {Noun} would {Verb} {Adverb} to the {Place}.",
                      "One day, a {Adjective} adventure awaited the {Noun} at the {Place}."];
-                     let template = random(storyTemplate);
-                     
+    let template = random(storyTemplate);
+
     createCanvas(600,400);
     background(220);
     NounField = createInput("Enter noun here");
