@@ -12,7 +12,8 @@ function setup() {
     inputField = createInput(" ");
     inputField.position(300, 300);
     inputField.style("font-size","20px");
-    text("Hint" + randomword,200,100);
+    text("Hint: " + randomword,200,100);
+    displayText = randomword[0].toUpperCase() + "_".repeat(randomword.length - 1);
     submitButton = createButton("show");
     submitButton.position(width/2,height/2);
     submitButton.mousePressed(displayInput);
