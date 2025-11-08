@@ -3,6 +3,8 @@ let submitButton;
 
 function setup() {
     createCanvas(400, 200);
+    
+    text
     background(220);
     inputField = createInput(" ");
     inputField.position(300, 300);
