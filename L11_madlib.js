@@ -8,7 +8,7 @@ let template;
 
 
 function setup(){
-    storyTemplate
+    storyTemplate = ["The "]
     createCanvas(600,400);
     background(220);
     NounField = createInput("Enter noun here");
