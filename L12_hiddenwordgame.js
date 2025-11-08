@@ -5,6 +5,7 @@ function setup() {
     createCanvas(400, 200);
     text
     textAlign(CENTER, CENTER);
+    words = ["apple", "banana", "cherry", "date", "elderberry"];
     background(220);
     inputField = createInput(" ");
     inputField.position(300, 300);
