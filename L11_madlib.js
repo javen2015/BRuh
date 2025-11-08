@@ -4,6 +4,7 @@ let AdjectiveField;
 let AdverbField;
 let PlaceField;
 let submitButton;
+let template
 
 
 function setup(){
