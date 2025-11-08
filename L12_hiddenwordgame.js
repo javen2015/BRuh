@@ -13,8 +13,8 @@ function setup() {
     inputField.position(300, 300);
    
     inputField.style("font-size","20px");
-     displayText = randomword[0].toUpperCase() + "_".repeat(randomword.length - 1);
-       text("Hint: " + displayText,200,100);
+    displayText = randomword[0].toUpperCase() + "_".repeat(randomword.length - 1);
+    text("Hint: " + displayText,200,100);
    
     submitButton = createButton("show");
     submitButton.position(width/2,height/2);
