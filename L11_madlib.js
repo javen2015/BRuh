@@ -15,7 +15,10 @@ function setup(){
                      "One day, a {Adjective} adventure awaited the {Noun} at the {Place}."];
     let template = random(storyTemplate);
     storyText = template.replace("{Noun}", "dog")
-    
+                        .replace("{Verb}", "run")
+                        .replace("{Adjective}", "happy")
+                        .replace("{Adverb}", "quickly")
+                        .replace("{Place}", "park");    
 
     createCanvas(600,400);
     background(220);
