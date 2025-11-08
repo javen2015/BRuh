@@ -15,9 +15,9 @@ function setup(){
                      "One day, a {Adjective} adventure awaited the {Noun} at the {Place}."];
     let template = random(storyTemplate);
     storyText = template.replace("{Noun}", NounField.value())
-                        .replace("{Verb}", "run")
-                        .replace("{Adjective}", "happy")
-                        .replace("{Adverb}", "quickly")
+                        .replace("{Verb}", VerbField.value())
+                        .replace("{Adjective}", AdjectiveField.value())
+                        .replace("{Adverb}", AdverbField.value())
                         .replace("{Place}", "park");   
     console.log(storyText); 
 
