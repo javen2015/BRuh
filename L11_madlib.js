@@ -8,7 +8,10 @@ let template;
 
 
 function setup(){
-    storyTemplate = ["The "]
+    storyTemplate = ["The {Adjective} {Noun} decided to {Verb} {Adverb} in the {Place}.",
+                     "Once upon a time, a {Adjective} {Noun} lived in a {Place}.",
+                     "Every day, the {Noun} would {Verb} {Adverb} to the {Place}.",
+                     "One day, a {Adjective} adventure awaited the {Noun} at the {Place}."];
     createCanvas(600,400);
     background(220);
     NounField = createInput("Enter noun here");
