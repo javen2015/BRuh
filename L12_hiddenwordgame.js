@@ -7,6 +7,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     words = ["apple", "banana", "cherry", "date", "elderberry"];
     randomword = random(words);
+    console.log(randomword);
     background(220);
     inputField = createInput(" ");
     inputField.position(300, 300);
