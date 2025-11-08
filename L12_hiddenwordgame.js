@@ -4,5 +4,5 @@ function setup() {
     createCanvas(400, 200);
     background(220);
     inputField = createButton(" ");
-    inputField.position(50, 50);
+    inputField.position(100, 100);
 }
