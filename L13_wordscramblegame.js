@@ -39,9 +39,10 @@ function checkAnswer() {
     if (userinput === selected) {
         message = "You guessed it! The hidden word is " + selected.toLowerCase() + ".";
     }else{
-        for (let i = 0; i < userinput.length + 1; i++) {
-            
-            
+        for (let i = 0; i < userinput.length; i++) {
+            if (userinput[i] === selected[i]) {
+                hints += ""
+            }
         }
         message = "Wrong! Try again.";
     }
