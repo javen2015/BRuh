@@ -35,7 +35,12 @@ function generateHints() {
 }
 
 function checkAnswer() {
-    message = "You guessed it! The hidden word is " + selected.toLowerCase() + ".";
+    let userinput = textInput.value().toUpperCase();
+    if (userinput === selected) {
+        message = "You guessed it! The hidden word is " + selected;
+    }else{
+        message = "Wrong! Try again.";
+    }
 }
 
 function draw() {
