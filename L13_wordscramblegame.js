@@ -39,7 +39,7 @@ function checkAnswer() {
     if (userinput === selected) {
         message = "You guessed it! The hidden word is " + selected.toLowerCase() + ".";
     }else{
-        if ()
+        if (userinput)
         message = "Wrong! Try again.";
     }
 }
