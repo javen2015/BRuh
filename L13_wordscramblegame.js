@@ -35,7 +35,7 @@ function generateHints() {
 }
 
 function checkAnswer() {
-    message = "You guessed it! The hidden word is 'beach'";
+    message = "You guessed it! The hidden word is " + selected.toLowerCase() + ".";
 }
 
 function draw() {
