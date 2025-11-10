@@ -46,7 +46,7 @@ function checkAnswer() {
                 hint2 += hintcombined;
             }
         }
-        message = "Wrong! Try again.";
+        message = "Wrong!Correct letters are" + hint2;
     }
 }
 
