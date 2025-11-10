@@ -1,6 +1,6 @@
 // write your codes here
 
-let hiddenwords = ["beach", "cloud", "mango","glove"];
+let hiddenwords = ["beach", "cloud", "mango","glove","plant","enter"];
 
 let textInput;
 let guessButton;
