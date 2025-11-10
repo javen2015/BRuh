@@ -42,7 +42,8 @@ function checkAnswer() {
     }else{
         for (let i = 0; i < userinput.length; i++) {
             if (userinput[i] === selected[i]) {
-                let hintcombined = " " +sel
+                let hintcombined = " " + userinput[i];
+                
             }
         }
         message = "Wrong! Try again.";
