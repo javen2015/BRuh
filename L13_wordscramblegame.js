@@ -49,7 +49,7 @@ function checkAnswer() {
         if (hint2 === ""){
             message = "Wrong! Try again.";
         }else{
-            message = "Wrong!Correct letters are" + hint2;
+            message = "Wrong! Correct letters are" + hint2;
         }
     }
 }
