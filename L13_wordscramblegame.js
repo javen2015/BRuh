@@ -8,7 +8,7 @@ let guessButton;
 let message;
 let selected;
 let hints;
-let hint2;
+let hint2 = "";
 
 function setup() {
     createCanvas(600,600);
